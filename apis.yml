@@ -1,0 +1,30 @@
+aid: make
+name: Make
+segments:
+  - Workflows
+description: >-
+  Make (formerly Integromat) is a visual scenario-based automation builder with advanced data transformation and routing logic.
+type: Index
+position: Consumer
+access: 3rd-Party
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Workflows
+created: '2026-03-03'
+modified: '2026-03-03'
+url: https://raw.githubusercontent.com/api-evangelist/make/refs/heads/main/apis.yml
+specificationVersion: '0.19'
+apis:
+  - aid: make:make
+    name: Make
+    description: >-
+      Make (formerly Integromat) is a visual scenario-based automation builder with advanced data transformation and routing logic.
+    humanURL: https://example.com
+    tags:
+      - Workflows
+    properties:
+      - type: Documentation
+        url: https://example.com
+maintainers:
+  - FN: Kin Lane
+    email: info@apievangelist.com
