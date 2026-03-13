@@ -10,21 +10,120 @@ access: 3rd-Party
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
   - Workflows
+  - Automation
+  - Integration
+  - iPaaS
+  - Scenarios
+  - No-Code
 created: '2026-03-03'
 modified: '2026-03-03'
 url: https://raw.githubusercontent.com/api-evangelist/make/refs/heads/main/apis.yml
 specificationVersion: '0.19'
 apis:
-  - aid: make:make
-    name: Make
+  - aid: make:make-api
+    name: Make API
     description: >-
-      Make (formerly Integromat) is a visual scenario-based automation builder with advanced data transformation and routing logic.
-    humanURL: https://example.com
+      The Make REST API allows using HTTP requests to access Make data and
+      control the Make platform without opening its graphical interface. It
+      provides endpoints for managing scenarios, connections, organizations,
+      teams, users, webhooks, data stores, data structures, custom functions,
+      templates, AI agents, and more.
+    humanURL: https://developers.make.com/api-documentation
+    baseURL: https://us1.make.com/api/v2
     tags:
       - Workflows
+      - Automation
+      - Scenarios
+      - REST API
     properties:
       - type: Documentation
-        url: https://example.com
+        url: https://developers.make.com/api-documentation
+      - type: GettingStarted
+        url: https://developers.make.com/api-documentation/getting-started
+      - type: APIReference
+        url: https://developers.make.com/api-documentation/api-reference
+  - aid: make:custom-apps
+    name: Make Custom Apps
+    description: >-
+      The Make Custom Apps platform enables developers to create their own
+      applications for the Make automation platform using the Apps Editor or
+      the VS Code extension. It provides documentation for building modules,
+      connections, webhooks, RPCs, and functions for custom integrations.
+    humanURL: https://developers.make.com/custom-apps-documentation
+    tags:
+      - Custom Apps
+      - SDK
+      - Extensions
+      - Integrations
+    properties:
+      - type: Documentation
+        url: https://developers.make.com/custom-apps-documentation
+  - aid: make:mcp-server
+    name: Make MCP Server
+    description: >-
+      The Make MCP Server allows AI systems such as large language models to
+      run scenarios and manage the contents of a Make account using the Model
+      Context Protocol (MCP) standard. It is available as a cloud-hosted
+      server running via Streamable HTTP and Server-Sent Events.
+    humanURL: https://developers.make.com/mcp-server
+    tags:
+      - MCP
+      - AI
+      - Agents
+      - Automation
+    properties:
+      - type: Documentation
+        url: https://developers.make.com/mcp-server
+  - aid: make:white-label
+    name: Make White Label
+    description: >-
+      Make White Label provides OEM customers with the ability to manage and
+      administrate their own white-labeled instance of Make, including
+      rebranding appearance, managing user access roles, creating
+      organizations and teams, and configuring custom domains.
+    humanURL: https://developers.make.com/white-label-documentation
+    tags:
+      - White Label
+      - OEM
+      - Enterprise
+    properties:
+      - type: Documentation
+        url: https://developers.make.com/white-label-documentation
+common:
+  - type: Portal
+    url: https://developers.make.com/
+  - type: GettingStarted
+    url: https://developers.make.com/api-documentation/getting-started
+  - type: Blog
+    url: https://www.make.com/en/blog
+  - type: Login
+    url: https://www.make.com/en/login
+  - type: SignUp
+    url: https://www.make.com/en/register
+  - type: Pricing
+    url: https://www.make.com/en/pricing
+  - type: HelpCenter
+    url: https://help.make.com/
+  - type: StatusPage
+    url: https://status.make.com/
+  - type: Security
+    url: https://www.make.com/en/security
+  - type: PrivacyPolicy
+    url: https://www.make.com/en/privacy-notice
+  - type: TermsOfService
+    url: https://www.make.com/en/terms-and-conditions
+  - type: Community
+    url: https://community.make.com/
+  - type: Academy
+    url: https://academy.make.com/
+  - type: GitHubOrg
+    url: https://github.com/integromat
+  - type: TypeScriptSDK
+    url: https://github.com/integromat/make-typescript-sdk
+  - type: VSCodeExtension
+    url: https://github.com/integromat/vscode-apps-sdk
+  - type: GDPR
+    url: https://www.make.com/en/privacy-and-gdpr
 maintainers:
   - FN: Kin Lane
-    email: info@apievangelist.com
+    email: kin@apievangelist.com
