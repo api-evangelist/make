@@ -9,12 +9,12 @@ position: Consumer
 access: 3rd-Party
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - Workflows
   - Automation
   - Integration
   - iPaaS
-  - Scenarios
   - No-Code
+  - Scenarios
+  - Workflows
 created: '2026-03-03'
 modified: '2026-03-16'
 url: https://raw.githubusercontent.com/api-evangelist/make/refs/heads/main/apis.yml
@@ -31,10 +31,10 @@ apis:
     humanURL: https://developers.make.com/api-documentation
     baseURL: https://us1.make.com/api/v2
     tags:
-      - Workflows
       - Automation
-      - Scenarios
       - REST API
+      - Scenarios
+      - Workflows
     properties:
       - type: Documentation
         url: https://developers.make.com/api-documentation
@@ -52,9 +52,9 @@ apis:
     humanURL: https://developers.make.com/custom-apps-documentation
     tags:
       - Custom Apps
-      - SDK
       - Extensions
       - Integrations
+      - SDK
     properties:
       - type: Documentation
         url: https://developers.make.com/custom-apps-documentation
@@ -67,10 +67,10 @@ apis:
       server running via Streamable HTTP and Server-Sent Events.
     humanURL: https://developers.make.com/mcp-server
     tags:
-      - MCP
-      - AI
       - Agents
+      - AI
       - Automation
+      - MCP
     properties:
       - type: Documentation
         url: https://developers.make.com/mcp-server
@@ -83,9 +83,9 @@ apis:
       organizations and teams, and configuring custom domains.
     humanURL: https://developers.make.com/white-label-documentation
     tags:
-      - White Label
-      - OEM
       - Enterprise
+      - OEM
+      - White Label
     properties:
       - type: Documentation
         url: https://developers.make.com/white-label-documentation
