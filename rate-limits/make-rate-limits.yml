@@ -1,0 +1,31 @@
+specification: API Commons Rate Limits
+specificationVersion: '0.1'
+schema: https://raw.githubusercontent.com/api-evangelist/interface-research/main/schema/api-commons.yml#/$defs/RateLimits
+provider: Make.com
+providerId: make
+created: '2026-05-04'
+modified: '2026-05-04'
+reconciled: true
+tags:
+  - Rate Limiting
+  - iPaaS
+description: Make.com API rate limits per organization.
+sources:
+  - https://www.make.com/en/pricing
+  - https://www.make.com/en/api-documentation
+headers:
+  retryAfter: Retry-After
+responseCodes:
+  throttled: 429
+limits:
+  - name: Make API
+    scope: org
+    metric: requests_per_minute
+    limit: 60
+    timeFrame: minute
+    notes: Available on Core+ tiers
+  - name: Webhook scenarios
+    scope: scenario
+    metric: requests_per_second
+    limit: 100
+    timeFrame: second

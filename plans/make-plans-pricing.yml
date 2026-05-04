@@ -1,0 +1,145 @@
+specification: API Commons Plans
+specificationVersion: '0.1'
+schema: https://raw.githubusercontent.com/api-evangelist/interface-research/main/schema/api-commons.yml#/$defs/Plans
+provider: Make.com
+providerId: make
+created: '2026-05-04'
+modified: '2026-05-04'
+reconciled: true
+tags:
+  - iPaaS
+  - Workflow
+  - Integration
+description: Make.com operation-based pricing across Free / Core / Pro / Teams / Enterprise.
+sources:
+  - https://www.make.com/en/pricing
+plans:
+  - id: make-free
+    name: Free
+    type: freemium
+    description: 1,000 credits/month; 15-min minimum scheduling.
+    entries:
+      - label: Credits/month
+        name: credits
+        type: quota
+        metric: credit
+        limit: 1000
+        timeFrame: month
+        geo: global
+        unit: 1
+        price: '0.00'
+        userMultiplied: false
+    elements:
+      - name: No-code visual workflow builder
+      - name: 3,000+ apps
+      - name: Routers + filters
+      - name: 15-min minimum interval
+  - id: make-core
+    name: Core
+    type: paid
+    description: $12/month; 10,000 credits.
+    entries:
+      - label: Monthly
+        name: monthly
+        type: subscription
+        metric: month
+        limit: -1
+        timeFrame: month
+        geo: global
+        unit: 1
+        price: '12.00'
+        userMultiplied: false
+      - label: Credits
+        name: credits
+        type: quota
+        metric: credit
+        limit: 10000
+        timeFrame: month
+        geo: global
+        unit: 1
+        price: '0.00'
+        userMultiplied: false
+    elements:
+      - name: Unlimited active scenarios
+      - name: Down-to-the-minute scheduling
+      - name: Increased data limits
+      - name: Make API access
+  - id: make-pro
+    name: Pro
+    type: paid
+    description: $21/month; 10,000 credits.
+    entries:
+      - label: Monthly
+        name: monthly
+        type: subscription
+        metric: month
+        limit: -1
+        timeFrame: month
+        geo: global
+        unit: 1
+        price: '21.00'
+        userMultiplied: false
+      - label: Credits
+        name: credits
+        type: quota
+        metric: credit
+        limit: 10000
+        timeFrame: month
+        geo: global
+        unit: 1
+        price: '0.00'
+        userMultiplied: false
+    elements:
+      - name: Priority scenario execution
+      - name: Custom variables
+      - name: Full-text execution log search
+  - id: make-teams
+    name: Teams
+    type: paid
+    description: $38/month; 10,000 credits.
+    entries:
+      - label: Monthly
+        name: monthly
+        type: subscription
+        metric: month
+        limit: -1
+        timeFrame: month
+        geo: global
+        unit: 1
+        price: '38.00'
+        userMultiplied: false
+      - label: Credits
+        name: credits
+        type: quota
+        metric: credit
+        limit: 10000
+        timeFrame: month
+        geo: global
+        unit: 1
+        price: '0.00'
+        userMultiplied: false
+    elements:
+      - name: Teams + roles
+      - name: Shared scenario templates
+  - id: make-enterprise
+    name: Enterprise
+    type: enterprise
+    description: Custom pricing.
+    entries:
+      - label: Annual (custom)
+        name: annual
+        type: subscription
+        metric: year
+        limit: -1
+        timeFrame: year
+        geo: global
+        unit: 1
+        price: custom
+        userMultiplied: false
+    elements:
+      - name: Custom functions
+      - name: Enterprise app integrations
+      - name: 24/7 Enterprise support
+      - name: Value Engineering team
+      - name: Overage protection
+      - name: Advanced security
