@@ -82,6 +82,8 @@ apis:
       - type: Documentation
         url: https://developers.make.com/white-label-documentation
 common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/itsmakehq
   - type: Portal
     url: https://developers.make.com/
   - type: GettingStarted
