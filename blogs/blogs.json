@@ -2,13 +2,13 @@
   "repo": "make",
   "feeds": [
     {
-      "source": "https://www.make.com/en/blog",
-      "feed_url": "",
+      "source": "https://developers.make.com/api-documentation/getting-started",
+      "feed_url": "https://developers.make.com/api-documentation/getting-started",
       "title": "",
       "saved": 0,
-      "error": "no_feed"
+      "method": "none"
     }
   ],
-  "fetched": "2026-05-17T20:48:52Z",
+  "fetched": "2026-06-01T23:35:02Z",
   "post_count": 0
 }
