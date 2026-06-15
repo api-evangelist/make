@@ -1,0 +1,418 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Make API",
+    "version": "2.0.0"
+  },
+  "request": {
+    "auth": {
+      "type": "apikey",
+      "key": "Authorization",
+      "value": "{{Authorization}}",
+      "placement": "header"
+    }
+  },
+  "items": [
+    {
+      "info": {
+        "name": "Scenarios",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "List all scenarios",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://us1.make.com/api/v2/scenarios"
+          },
+          "docs": "List all scenarios"
+        },
+        {
+          "info": {
+            "name": "Create a new scenario",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://us1.make.com/api/v2/scenarios",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "Create a new scenario"
+        },
+        {
+          "info": {
+            "name": "Get scenario details",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://us1.make.com/api/v2/scenarios/:scenarioId",
+            "params": [
+              {
+                "name": "scenarioId",
+                "value": "",
+                "type": "path"
+              }
+            ]
+          },
+          "docs": "Get scenario details"
+        },
+        {
+          "info": {
+            "name": "Update scenario",
+            "type": "http"
+          },
+          "http": {
+            "method": "PATCH",
+            "url": "https://us1.make.com/api/v2/scenarios/:scenarioId",
+            "params": [
+              {
+                "name": "scenarioId",
+                "value": "",
+                "type": "path"
+              }
+            ],
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "Update scenario"
+        },
+        {
+          "info": {
+            "name": "Delete scenario",
+            "type": "http"
+          },
+          "http": {
+            "method": "DELETE",
+            "url": "https://us1.make.com/api/v2/scenarios/:scenarioId",
+            "params": [
+              {
+                "name": "scenarioId",
+                "value": "",
+                "type": "path"
+              }
+            ]
+          },
+          "docs": "Delete scenario"
+        },
+        {
+          "info": {
+            "name": "Get trigger details",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://us1.make.com/api/v2/scenarios/:scenarioId/triggers",
+            "params": [
+              {
+                "name": "scenarioId",
+                "value": "",
+                "type": "path"
+              }
+            ]
+          },
+          "docs": "Get trigger details"
+        },
+        {
+          "info": {
+            "name": "Clone scenario",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://us1.make.com/api/v2/scenarios/:scenarioId/clone",
+            "params": [
+              {
+                "name": "scenarioId",
+                "value": "",
+                "type": "path"
+              }
+            ]
+          },
+          "docs": "Clone scenario"
+        },
+        {
+          "info": {
+            "name": "Get scenario inputs/outputs specification",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://us1.make.com/api/v2/scenarios/:scenarioId/interface",
+            "params": [
+              {
+                "name": "scenarioId",
+                "value": "",
+                "type": "path"
+              }
+            ]
+          },
+          "docs": "Get scenario inputs/outputs specification"
+        },
+        {
+          "info": {
+            "name": "Update scenario inputs specification",
+            "type": "http"
+          },
+          "http": {
+            "method": "PATCH",
+            "url": "https://us1.make.com/api/v2/scenarios/:scenarioId/interface",
+            "params": [
+              {
+                "name": "scenarioId",
+                "value": "",
+                "type": "path"
+              }
+            ],
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "Update scenario inputs specification"
+        },
+        {
+          "info": {
+            "name": "Get scenario usage statistics",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://us1.make.com/api/v2/scenarios/:scenarioId/usage",
+            "params": [
+              {
+                "name": "scenarioId",
+                "value": "",
+                "type": "path"
+              }
+            ]
+          },
+          "docs": "Get scenario usage statistics"
+        }
+      ]
+    },
+    {
+      "info": {
+        "name": "Scenario Execution",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "Activate scenario",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://us1.make.com/api/v2/scenarios/:scenarioId/start",
+            "params": [
+              {
+                "name": "scenarioId",
+                "value": "",
+                "type": "path"
+              }
+            ]
+          },
+          "docs": "Activate scenario"
+        },
+        {
+          "info": {
+            "name": "Deactivate scenario",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://us1.make.com/api/v2/scenarios/:scenarioId/stop",
+            "params": [
+              {
+                "name": "scenarioId",
+                "value": "",
+                "type": "path"
+              }
+            ]
+          },
+          "docs": "Deactivate scenario"
+        },
+        {
+          "info": {
+            "name": "Execute scenario",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://us1.make.com/api/v2/scenarios/:scenarioId/run",
+            "params": [
+              {
+                "name": "scenarioId",
+                "value": "",
+                "type": "path"
+              }
+            ],
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "Execute scenario"
+        },
+        {
+          "info": {
+            "name": "Replay a scenario execution",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://us1.make.com/api/v2/scenarios/:scenarioId/replay",
+            "params": [
+              {
+                "name": "scenarioId",
+                "value": "",
+                "type": "path"
+              }
+            ]
+          },
+          "docs": "Replay a scenario execution"
+        },
+        {
+          "info": {
+            "name": "Inspect module data for a scenario",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://us1.make.com/api/v2/scenarios/:scenarioId/data/:moduleId",
+            "params": [
+              {
+                "name": "scenarioId",
+                "value": "",
+                "type": "path"
+              },
+              {
+                "name": "moduleId",
+                "value": "",
+                "type": "path"
+              }
+            ]
+          },
+          "docs": "Inspect module data for a scenario"
+        }
+      ]
+    },
+    {
+      "info": {
+        "name": "Scenario Variables",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "List buildtime variables",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://us1.make.com/api/v2/scenarios/:scenarioId/build-variables",
+            "params": [
+              {
+                "name": "scenarioId",
+                "value": "",
+                "type": "path"
+              }
+            ]
+          },
+          "docs": "List buildtime variables"
+        },
+        {
+          "info": {
+            "name": "Add buildtime variables",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://us1.make.com/api/v2/scenarios/:scenarioId/build-variables",
+            "params": [
+              {
+                "name": "scenarioId",
+                "value": "",
+                "type": "path"
+              }
+            ],
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "Add buildtime variables"
+        },
+        {
+          "info": {
+            "name": "Update buildtime variables",
+            "type": "http"
+          },
+          "http": {
+            "method": "PUT",
+            "url": "https://us1.make.com/api/v2/scenarios/:scenarioId/build-variables",
+            "params": [
+              {
+                "name": "scenarioId",
+                "value": "",
+                "type": "path"
+              }
+            ],
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "Update buildtime variables"
+        },
+        {
+          "info": {
+            "name": "Delete a buildtime variable",
+            "type": "http"
+          },
+          "http": {
+            "method": "DELETE",
+            "url": "https://us1.make.com/api/v2/scenarios/:scenarioId/build-variables",
+            "params": [
+              {
+                "name": "scenarioId",
+                "value": "",
+                "type": "path"
+              }
+            ]
+          },
+          "docs": "Delete a buildtime variable"
+        }
+      ]
+    },
+    {
+      "info": {
+        "name": "AI Agents",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "List AI agent scenarios",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://us1.make.com/api/v2/scenarios/ai-agents"
+          },
+          "docs": "List AI agent scenarios"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}
