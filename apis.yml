@@ -92,7 +92,7 @@ common:
     url: https://www.make.com/en/blog
   - type: Login
     url: https://www.make.com/en/login
-  - type: SignUp
+  - type: Signup
     url: https://www.make.com/en/register
   - type: Pricing
     url: https://www.make.com/en/pricing
@@ -139,7 +139,7 @@ common:
     sources:
       - https://www.make.com/en/pricing
     updated: '2026-05-04'
-  - type: LLMsTxt
+  - type: LlmsText
     url: https://developers.make.com/llms.txt
 maintainers:
   - FN: Kin Lane
