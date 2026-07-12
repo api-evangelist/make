@@ -82,6 +82,10 @@ apis:
       - type: Documentation
         url: https://developers.make.com/white-label-documentation
 common:
+  - type: DomainSecurity
+    url: security/make-domain-security.yml
+  - type: Authentication
+    url: authentication/make-authentication.yml
   - type: LinkedIn
     url: https://www.linkedin.com/company/itsmakehq
   - type: Portal
