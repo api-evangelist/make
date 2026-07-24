@@ -1,0 +1,181 @@
+openapi: 3.1.0
+info:
+  title: Make AI Agents Scenarios API
+  description: The Make (formerly Integromat) REST API provides programmatic access to scenarios and the broader Make platform. Endpoints are organized into resource-oriented URLs at `/api/v2/`. Authentication uses an API token issued from the user profile with required scopes, passed via the `Authorization` header (`Token <api-token>`).
+  version: 2.0.0
+  contact:
+    name: Make
+    url: https://developers.make.com/api-documentation
+servers:
+- url: https://us1.make.com/api/v2
+  description: US1 region
+- url: https://us2.make.com/api/v2
+  description: US2 region
+- url: https://eu1.make.com/api/v2
+  description: EU1 region
+- url: https://eu2.make.com/api/v2
+  description: EU2 region
+security:
+- TokenAuth: []
+tags:
+- name: Scenarios
+paths:
+  /scenarios:
+    get:
+      tags:
+      - Scenarios
+      summary: List all scenarios
+      operationId: listScenarios
+      responses:
+        '200':
+          description: Scenarios
+    post:
+      tags:
+      - Scenarios
+      summary: Create a new scenario
+      operationId: createScenario
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+      responses:
+        '201':
+          description: Scenario
+  /scenarios/{scenarioId}:
+    get:
+      tags:
+      - Scenarios
+      summary: Get scenario details
+      operationId: getScenario
+      parameters:
+      - name: scenarioId
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        '200':
+          description: Scenario
+    patch:
+      tags:
+      - Scenarios
+      summary: Update scenario
+      operationId: updateScenario
+      parameters:
+      - name: scenarioId
+        in: path
+        required: true
+        schema:
+          type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+      responses:
+        '200':
+          description: Updated
+    delete:
+      tags:
+      - Scenarios
+      summary: Delete scenario
+      operationId: deleteScenario
+      parameters:
+      - name: scenarioId
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        '204':
+          description: Deleted
+  /scenarios/{scenarioId}/triggers:
+    get:
+      tags:
+      - Scenarios
+      summary: Get trigger details
+      operationId: getScenarioTriggers
+      parameters:
+      - name: scenarioId
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        '200':
+          description: Trigger details
+  /scenarios/{scenarioId}/clone:
+    post:
+      tags:
+      - Scenarios
+      summary: Clone scenario
+      operationId: cloneScenario
+      parameters:
+      - name: scenarioId
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        '201':
+          description: Cloned scenario
+  /scenarios/{scenarioId}/interface:
+    get:
+      tags:
+      - Scenarios
+      summary: Get scenario inputs/outputs specification
+      operationId: getScenarioInterface
+      parameters:
+      - name: scenarioId
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        '200':
+          description: Interface
+    patch:
+      tags:
+      - Scenarios
+      summary: Update scenario inputs specification
+      operationId: updateScenarioInterface
+      parameters:
+      - name: scenarioId
+        in: path
+        required: true
+        schema:
+          type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+      responses:
+        '200':
+          description: Updated
+  /scenarios/{scenarioId}/usage:
+    get:
+      tags:
+      - Scenarios
+      summary: Get scenario usage statistics
+      operationId: getScenarioUsage
+      parameters:
+      - name: scenarioId
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        '200':
+          description: Usage stats
+components:
+  securitySchemes:
+    TokenAuth:
+      type: apiKey
+      in: header
+      name: Authorization
+      description: 'API token in the form: `Token <api-token>` with the required scopes enabled.'
