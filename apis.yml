@@ -5,9 +5,22 @@ segments:
 description: Make (formerly Integromat) is a visual scenario-based automation builder with advanced data
   transformation and routing logic.
 type: Index
+accessModel:
+  pricing: freemium
+  onboarding: self-serve
+  trial: false
+  try_now: true
+  public: false
+  label: Freemium · Self-serve signup
+  confidence: high
+  source:
+  - plans
+  - authentication
+  generated: '2026-07-22'
+  method: derived
 position: Consumer
 access: 3rd-Party
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/make.png
 tags:
   - Automation
   - Integration
@@ -20,67 +33,111 @@ modified: '2026-05-04'
 url: https://raw.githubusercontent.com/api-evangelist/make/refs/heads/main/apis.yml
 specificationVersion: '0.19'
 apis:
-  - aid: make:make-api
-    name: Make API
-    description: The Make REST API allows using HTTP requests to access Make data and control the Make
-      platform without opening its graphical interface. It provides endpoints for managing scenarios,
-      connections, organizations, teams, users, webhooks, data stores, data structures, custom functions,
-      templates, AI agents, and more.
-    humanURL: https://developers.make.com/api-documentation
-    baseURL: https://us1.make.com/api/v2
-    tags:
-      - Automation
-      - REST API
-      - Scenarios
-      - Workflows
-    properties:
-      - type: Documentation
-        url: https://developers.make.com/api-documentation
-      - type: GettingStarted
-        url: https://developers.make.com/api-documentation/getting-started
-      - type: APIReference
-        url: https://developers.make.com/api-documentation/api-reference
-  - aid: make:custom-apps
-    name: Make Custom Apps
-    description: The Make Custom Apps platform enables developers to create their own applications for
-      the Make automation platform using the Apps Editor or the VS Code extension. It provides documentation
-      for building modules, connections, webhooks, RPCs, and functions for custom integrations.
-    humanURL: https://developers.make.com/custom-apps-documentation
-    tags:
-      - Custom Apps
-      - Extensions
-      - Integrations
-      - SDK
-    properties:
-      - type: Documentation
-        url: https://developers.make.com/custom-apps-documentation
-  - aid: make:mcp-server
-    name: Make MCP Server
-    description: The Make MCP Server allows AI systems such as large language models to run scenarios
-      and manage the contents of a Make account using the Model Context Protocol (MCP) standard. It is
-      available as a cloud-hosted server running via Streamable HTTP and Server-Sent Events.
-    humanURL: https://developers.make.com/mcp-server
-    tags:
-      - Agents
-      - AI
-      - Automation
-      - MCP
-    properties:
-      - type: Documentation
-        url: https://developers.make.com/mcp-server
-  - aid: make:white-label
-    name: Make White Label
-    description: Make White Label provides OEM customers with the ability to manage and administrate their
-      own white-labeled instance of Make, including rebranding appearance, managing user access roles,
-      creating organizations and teams, and configuring custom domains.
-    humanURL: https://developers.make.com/white-label-documentation
-    tags:
-      - Enterprise
-      - OEM
-      - White Label
-    properties:
-      - type: Documentation
-        url: https://developers.make.com/white-label-documentation
+- aid: make:make-api
+  name: Make API
+  description: >-
+    The Make REST API allows using HTTP requests to access Make data and control the Make platform without
+    opening its graphical interface. It provides endpoints for managing scenarios, connections, organizations,
+    teams, users, webhooks, data stores, data structures, custom functions, templates, AI agents, and
+    more.
+  humanURL: https://developers.make.com/api-documentation
+  baseURL: https://us1.make.com/api/v2
+  tags:
+  - Automation
+  - REST API
+  - Scenarios
+  - Workflows
+  properties:
+  - type: Documentation
+    url: https://developers.make.com/api-documentation
+  - type: GettingStarted
+    url: https://developers.make.com/api-documentation/getting-started
+  - type: APIReference
+    url: https://developers.make.com/api-documentation/api-reference
+- aid: make:custom-apps
+  name: Make Custom Apps
+  description: >-
+    The Make Custom Apps platform enables developers to create their own applications for the Make automation
+    platform using the Apps Editor or the VS Code extension. It provides documentation for building modules,
+    connections, webhooks, RPCs, and functions for custom integrations.
+  humanURL: https://developers.make.com/custom-apps-documentation
+  tags:
+  - Custom Apps
+  - Extensions
+  - Integrations
+  - SDK
+  properties:
+  - type: Documentation
+    url: https://developers.make.com/custom-apps-documentation
+- aid: make:mcp-server
+  name: Make MCP Server
+  description: >-
+    The Make MCP Server allows AI systems such as large language models to run scenarios and manage the
+    contents of a Make account using the Model Context Protocol (MCP) standard. It is available as a cloud-hosted
+    server running via Streamable HTTP and Server-Sent Events.
+  humanURL: https://developers.make.com/mcp-server
+  tags:
+  - Agents
+  - AI
+  - Automation
+  - MCP
+  properties:
+  - type: Documentation
+    url: https://developers.make.com/mcp-server
+- aid: make:white-label
+  name: Make White Label
+  description: >-
+    Make White Label provides OEM customers with the ability to manage and administrate their own white-labeled
+    instance of Make, including rebranding appearance, managing user access roles, creating organizations
+    and teams, and configuring custom domains.
+  humanURL: https://developers.make.com/white-label-documentation
+  tags:
+  - Enterprise
+  - OEM
+  - White Label
+  properties:
+  - type: Documentation
+    url: https://developers.make.com/white-label-documentation
+- aid: make:make-ai-agents-api
+  name: Make AI Agents API
+  description: The AI Agents API from Make — 1 operation(s) for ai agents.
+  humanURL: https://developers.make.com/api-documentation
+  baseURL: https://us1.make.com/api/v2
+  tags:
+  - AI Agents
+  properties:
+  - type: OpenAPI
+    url: openapi/make-ai-agents-api-openapi.yml
+- aid: make:make-scenario-execution-api
+  name: Make Scenario Execution API
+  description: The Scenario Execution API from Make — 5 operation(s) for scenario execution.
+  humanURL: https://developers.make.com/api-documentation
+  baseURL: https://us1.make.com/api/v2
+  tags:
+  - Scenario Execution
+  properties:
+  - type: OpenAPI
+    url: openapi/make-scenario-execution-api-openapi.yml
+- aid: make:make-scenario-variables-api
+  name: Make Scenario Variables API
+  description: The Scenario Variables API from Make — 1 operation(s) for scenario variables.
+  humanURL: https://developers.make.com/api-documentation
+  baseURL: https://us1.make.com/api/v2
+  tags:
+  - Scenario Variables
+  properties:
+  - type: OpenAPI
+    url: openapi/make-scenario-variables-api-openapi.yml
+- aid: make:make-scenarios-api
+  name: Make Scenarios API
+  description: The Scenarios API from Make — 6 operation(s) for scenarios.
+  humanURL: https://developers.make.com/api-documentation
+  baseURL: https://us1.make.com/api/v2
+  tags:
+  - Scenarios
+  properties:
+  - type: OpenAPI
+    url: openapi/make-scenarios-api-openapi.yml
 common:
   - type: AgenticAccess
     url: agentic-access/make-agentic-access.yml
