@@ -1,0 +1,116 @@
+{
+  "item": [
+    {
+      "id": "c9bf2cf5-03e3-4d35-8e2d-38580f665d99",
+      "name": "AI Agents",
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "item": [
+        {
+          "id": "f5f32ad1-7268-40aa-b238-30c20f469924",
+          "name": "List AI agent scenarios",
+          "request": {
+            "name": "List AI agent scenarios",
+            "description": {},
+            "url": {
+              "path": [
+                "scenarios",
+                "ai-agents"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "method": "GET",
+            "auth": null
+          },
+          "response": [
+            {
+              "id": "2180f25f-d3d4-4357-8977-f3a41daec57c",
+              "name": "AI agent scenarios",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "scenarios",
+                    "ai-agents"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: apikey",
+                      "type": "text/plain"
+                    },
+                    "key": "Authorization",
+                    "value": "<API Key>"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": [],
+              "_postman_previewlanguage": "text"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        }
+      ],
+      "event": []
+    }
+  ],
+  "event": [],
+  "variable": [
+    {
+      "type": "string",
+      "value": "https://us1.make.com/api/v2",
+      "key": "baseUrl"
+    }
+  ],
+  "auth": {
+    "type": "apikey",
+    "apikey": [
+      {
+        "key": "key",
+        "value": "Authorization"
+      },
+      {
+        "key": "value",
+        "value": "{{apiKey}}"
+      },
+      {
+        "key": "in",
+        "value": "header"
+      }
+    ]
+  },
+  "info": {
+    "_postman_id": "90839061-c3c1-4757-b02f-ffd95f85f2af",
+    "name": "Make AI Agents API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "The Make (formerly Integromat) REST API provides programmatic access to scenarios and the broader Make platform. Endpoints are organized into resource-oriented URLs at `/api/v2/`. Authentication uses an API token issued from the user profile with required scopes, passed via the `Authorization` header (`Token <api-token>`).\n\nContact Support:\n Name: Make",
+      "type": "text/plain"
+    }
+  }
+}

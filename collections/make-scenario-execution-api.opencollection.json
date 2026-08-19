@@ -1,0 +1,125 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Make AI Agents Scenario Execution API",
+    "version": "2.0.0"
+  },
+  "request": {
+    "auth": {
+      "type": "apikey",
+      "key": "Authorization",
+      "value": "{{Authorization}}",
+      "placement": "header"
+    }
+  },
+  "items": [
+    {
+      "info": {
+        "name": "Scenario Execution",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "Activate scenario",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://us1.make.com/api/v2/scenarios/:scenarioId/start",
+            "params": [
+              {
+                "name": "scenarioId",
+                "value": "",
+                "type": "path"
+              }
+            ]
+          },
+          "docs": "Activate scenario"
+        },
+        {
+          "info": {
+            "name": "Deactivate scenario",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://us1.make.com/api/v2/scenarios/:scenarioId/stop",
+            "params": [
+              {
+                "name": "scenarioId",
+                "value": "",
+                "type": "path"
+              }
+            ]
+          },
+          "docs": "Deactivate scenario"
+        },
+        {
+          "info": {
+            "name": "Execute scenario",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://us1.make.com/api/v2/scenarios/:scenarioId/run",
+            "params": [
+              {
+                "name": "scenarioId",
+                "value": "",
+                "type": "path"
+              }
+            ],
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "Execute scenario"
+        },
+        {
+          "info": {
+            "name": "Replay a scenario execution",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://us1.make.com/api/v2/scenarios/:scenarioId/replay",
+            "params": [
+              {
+                "name": "scenarioId",
+                "value": "",
+                "type": "path"
+              }
+            ]
+          },
+          "docs": "Replay a scenario execution"
+        },
+        {
+          "info": {
+            "name": "Inspect module data for a scenario",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://us1.make.com/api/v2/scenarios/:scenarioId/data/:moduleId",
+            "params": [
+              {
+                "name": "scenarioId",
+                "value": "",
+                "type": "path"
+              },
+              {
+                "name": "moduleId",
+                "value": "",
+                "type": "path"
+              }
+            ]
+          },
+          "docs": "Inspect module data for a scenario"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

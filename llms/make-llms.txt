@@ -1,0 +1,502 @@
+# Make Developer Hub
+
+## Home
+
+- [Make Developer Hub](https://developers.make.com/make-developer-hub.md): Where you’ll find the latest developer solutions for building, automating, and innovating with Make.
+
+## Make API
+
+- [Make API documentation](https://developers.make.com/api-documentation/readme.md)
+- [Getting started](https://developers.make.com/api-documentation/getting-started.md)
+- [Make API structure](https://developers.make.com/api-documentation/getting-started/api-structure.md)
+- [HTTP methods](https://developers.make.com/api-documentation/getting-started/http-methods.md)
+- [Making your first API request](https://developers.make.com/api-documentation/getting-started/making-your-first-api-request.md)
+- [Rate limiting](https://developers.make.com/api-documentation/getting-started/rate-limiting.md)
+- [Resources](https://developers.make.com/api-documentation/getting-started/resources.md)
+- [Authentication](https://developers.make.com/api-documentation/authentication.md)
+- [Make roles and API scopes](https://developers.make.com/api-documentation/authentication/api-scopes-overview.md)
+- [Creating API token](https://developers.make.com/api-documentation/authentication/create-authentication-token.md)
+- [Managing API token](https://developers.make.com/api-documentation/authentication/authentication-managing.md)
+- [Requesting an OAuth 2.0 client](https://developers.make.com/api-documentation/authentication/requesting-an-oauth-2.0-client.md)
+- [OAuth 2.0 flow in the Make API](https://developers.make.com/api-documentation/authentication/oauth-flow.md)
+- [Authorization code flow with refresh token (confidential clients)](https://developers.make.com/api-documentation/authentication/oauth-flow/authorization-code-flow-with-refresh-token-confidential-clients.md)
+- [Authorization code flow with PKCE (public clients)](https://developers.make.com/api-documentation/authentication/oauth-flow/authorization-code-flow-with-pkce-public-clients.md)
+- [Token expiration](https://developers.make.com/api-documentation/authentication/oauth-flow/token-expiration.md)
+- [Best practices and error handling](https://developers.make.com/api-documentation/authentication/oauth-flow/best-practices-and-error-handling.md)
+- [Pagination, sorting and filtering](https://developers.make.com/api-documentation/pagination-sorting-filtering.md)
+- [Pagination and sorting](https://developers.make.com/api-documentation/pagination-sorting-filtering/pagination-and-sorting.md)
+- [Filtering](https://developers.make.com/api-documentation/pagination-sorting-filtering/filtering.md)
+- [Troubleshooting and error handling](https://developers.make.com/api-documentation/troubleshooting.md)
+- [HTTP status error codes](https://developers.make.com/api-documentation/troubleshooting/http-status-codes.md)
+- [Troubleshooting](https://developers.make.com/api-documentation/troubleshooting/common-issues.md)
+- [Client libraries](https://developers.make.com/api-documentation/client-libraries.md)
+- [API Reference](https://developers.make.com/api-documentation/api-reference.md)
+- [Affiliate](https://developers.make.com/api-documentation/api-reference/affiliate.md)
+- [On Prem Agents](https://developers.make.com/api-documentation/api-reference/on-prem-agents.md)
+- [AI Agents](https://developers.make.com/api-documentation/api-reference/ai-agents.md)
+- [Context](https://developers.make.com/api-documentation/api-reference/ai-agents/context.md)
+- [LLM Providers](https://developers.make.com/api-documentation/api-reference/ai-agents/llm-providers.md)
+- [Analytics](https://developers.make.com/api-documentation/api-reference/analytics.md)
+- [Audit Logs](https://developers.make.com/api-documentation/api-reference/audit-logs.md)
+- [Cashier](https://developers.make.com/api-documentation/api-reference/cashier.md)
+- [Connections](https://developers.make.com/api-documentation/api-reference/connections.md)
+- [Access list](https://developers.make.com/api-documentation/api-reference/connections/access-list.md)
+- [Credential Requests](https://developers.make.com/api-documentation/api-reference/credential-requests.md)
+- [Custom Properties](https://developers.make.com/api-documentation/api-reference/custom-properties.md)
+- [Structure items](https://developers.make.com/api-documentation/api-reference/custom-properties/structure-items.md)
+- [Data Stores](https://developers.make.com/api-documentation/api-reference/data-stores.md)
+- [Data](https://developers.make.com/api-documentation/api-reference/data-stores/data.md)
+- [Data Structures](https://developers.make.com/api-documentation/api-reference/data-structures.md)
+- [Devices](https://developers.make.com/api-documentation/api-reference/devices.md)
+- [Incomings](https://developers.make.com/api-documentation/api-reference/devices/incomings.md)
+- [Outgoings](https://developers.make.com/api-documentation/api-reference/devices/outgoings.md)
+- [Incomplete Executions](https://developers.make.com/api-documentation/api-reference/incomplete-executions.md)
+- [Enums](https://developers.make.com/api-documentation/api-reference/enums.md)
+- [Custom Functions](https://developers.make.com/api-documentation/api-reference/custom-functions.md)
+- [General](https://developers.make.com/api-documentation/api-reference/general.md)
+- [Hooks](https://developers.make.com/api-documentation/api-reference/hooks.md)
+- [Incomings](https://developers.make.com/api-documentation/api-reference/hooks/incomings.md)
+- [Logs](https://developers.make.com/api-documentation/api-reference/hooks/logs.md)
+- [Keys](https://developers.make.com/api-documentation/api-reference/keys.md)
+- [Access list](https://developers.make.com/api-documentation/api-reference/keys/access-list.md)
+- [Notifications](https://developers.make.com/api-documentation/api-reference/notifications.md)
+- [Organizations](https://developers.make.com/api-documentation/api-reference/organizations.md)
+- [User organization roles](https://developers.make.com/api-documentation/api-reference/organizations/user-organization-roles.md)
+- [MMS](https://developers.make.com/api-documentation/api-reference/mms.md)
+- [Private Spaces](https://developers.make.com/api-documentation/api-reference/private-spaces.md)
+- [Remote Procedures](https://developers.make.com/api-documentation/api-reference/remote-procedures.md)
+- [Scenarios](https://developers.make.com/api-documentation/api-reference/scenarios.md)
+- [Logs](https://developers.make.com/api-documentation/api-reference/scenarios/logs.md)
+- [Blueprints](https://developers.make.com/api-documentation/api-reference/scenarios/blueprints.md)
+- [Consumptions](https://developers.make.com/api-documentation/api-reference/scenarios/consumptions.md)
+- [Tools](https://developers.make.com/api-documentation/api-reference/scenarios/tools.md)
+- [Custom properties data](https://developers.make.com/api-documentation/api-reference/scenarios/custom-properties-data.md)
+- [Scenarios Folders](https://developers.make.com/api-documentation/api-reference/scenarios-folders.md)
+- [Scenario Labels](https://developers.make.com/api-documentation/api-reference/scenario-labels.md)
+- [SDK Apps](https://developers.make.com/api-documentation/api-reference/sdk-apps.md)
+- [Invites](https://developers.make.com/api-documentation/api-reference/sdk-apps/invites.md)
+- [Modules](https://developers.make.com/api-documentation/api-reference/sdk-apps/modules.md)
+- [RPCs](https://developers.make.com/api-documentation/api-reference/sdk-apps/rpcs.md)
+- [Functions](https://developers.make.com/api-documentation/api-reference/sdk-apps/functions.md)
+- [Connections](https://developers.make.com/api-documentation/api-reference/sdk-apps/connections.md)
+- [Webhooks](https://developers.make.com/api-documentation/api-reference/sdk-apps/webhooks.md)
+- [SSO Certificates](https://developers.make.com/api-documentation/api-reference/sso-certificates.md)
+- [Teams](https://developers.make.com/api-documentation/api-reference/teams.md)
+- [User team roles](https://developers.make.com/api-documentation/api-reference/teams/user-team-roles.md)
+- [Templates](https://developers.make.com/api-documentation/api-reference/templates.md)
+- [Public](https://developers.make.com/api-documentation/api-reference/templates/public.md)
+- [Users](https://developers.make.com/api-documentation/api-reference/users.md)
+- [Me](https://developers.make.com/api-documentation/api-reference/users/me.md)
+- [API Tokens](https://developers.make.com/api-documentation/api-reference/users/api-tokens.md)
+- [User team roles](https://developers.make.com/api-documentation/api-reference/users/user-team-roles.md)
+- [User team notifications](https://developers.make.com/api-documentation/api-reference/users/user-team-notifications.md)
+- [User organization roles](https://developers.make.com/api-documentation/api-reference/users/user-organization-roles.md)
+- [Roles](https://developers.make.com/api-documentation/api-reference/users/roles.md)
+- [Unread notifications](https://developers.make.com/api-documentation/api-reference/users/unread-notifications.md)
+- [User email preferences - Mailhub](https://developers.make.com/api-documentation/api-reference/users/user-email-preferences-mailhub.md)
+
+## Custom Apps Documentation
+
+- [Overview](https://developers.make.com/custom-apps-documentation/get-started/readme.md): Make Custom Apps documentation is a guide for developers to create apps for themselves or others to use on the Make platform.
+- [Select your editor](https://developers.make.com/custom-apps-documentation/get-started/make-apps-editor.md)
+- [Make web interface](https://developers.make.com/custom-apps-documentation/get-started/make-apps-editor/web-editor-features.md)
+- [Visual Studio Code](https://developers.make.com/custom-apps-documentation/get-started/make-apps-editor/apps-sdk.md)
+- [Generate your API key](https://developers.make.com/custom-apps-documentation/get-started/make-apps-editor/apps-sdk/generation-of-your-api-key.md)
+- [Configure VS Code](https://developers.make.com/custom-apps-documentation/get-started/make-apps-editor/apps-sdk/configuration-of-vs-code.md)
+- [Create an app in VS Code](https://developers.make.com/custom-apps-documentation/get-started/make-apps-editor/apps-sdk/creating-an-app-in-vs-code.md)
+- [Set the app icon in VS Code](https://developers.make.com/custom-apps-documentation/get-started/make-apps-editor/apps-sdk/setting-apps-logo-in-vs-code.md)
+- [Use general controls](https://developers.make.com/custom-apps-documentation/get-started/make-apps-editor/apps-sdk/general-controls.md)
+- [Manage testing and production app versions](https://developers.make.com/custom-apps-documentation/get-started/make-apps-editor/apps-sdk/manage-testing-and-production-app-versions.md)
+- [Develop apps collaboratively](https://developers.make.com/custom-apps-documentation/get-started/make-apps-editor/apps-sdk/develop-apps-collaboratively.md)
+- [Write IML tests](https://developers.make.com/custom-apps-documentation/get-started/make-apps-editor/apps-sdk/iml-tests.md)
+- [Local development for Apps](https://developers.make.com/custom-apps-documentation/get-started/make-apps-editor/apps-sdk/local-development-for-apps.md)
+- [Clone Make app to local workspace](https://developers.make.com/custom-apps-documentation/get-started/make-apps-editor/apps-sdk/local-development-for-apps/clone-make-app-to-local-workspace.md)
+- [Develop app in a local workspace (offline)](https://developers.make.com/custom-apps-documentation/get-started/make-apps-editor/apps-sdk/local-development-for-apps/develop-app-in-a-local-workspace-offline.md)
+- [Commit the changes in Git repository](https://developers.make.com/custom-apps-documentation/get-started/make-apps-editor/apps-sdk/local-development-for-apps/commit-the-changes-in-git-repository.md)
+- [Deploy changes to Make](https://developers.make.com/custom-apps-documentation/get-started/make-apps-editor/apps-sdk/local-development-for-apps/deploy-changes-from-local-app-to-make-app.md)
+- [Pull changes from Make](https://developers.make.com/custom-apps-documentation/get-started/make-apps-editor/apps-sdk/local-development-for-apps/pull-changes-from-make-app.md)
+- [Create a new app origin](https://developers.make.com/custom-apps-documentation/get-started/make-apps-editor/apps-sdk/local-development-for-apps/create-a-new-app-origin.md)
+- [Compare changes between local and Make](https://developers.make.com/custom-apps-documentation/get-started/make-apps-editor/apps-sdk/local-development-for-apps/compare-changes-between-local-and-make-app.md)
+- [Make a test HTTP call](https://developers.make.com/custom-apps-documentation/get-started/make-a-test-http-call.md)
+- [Documentation guide](https://developers.make.com/custom-apps-documentation/get-started/how-to-read-the-documentation.md)
+- [Useful resources](https://developers.make.com/custom-apps-documentation/get-started/useful-resources.md): A collection of resources to help you develop your custom app and learn more about using Make.
+- [Overview](https://developers.make.com/custom-apps-documentation/create-your-first-app/overview.md)
+- [Initial setup in Make](https://developers.make.com/custom-apps-documentation/create-your-first-app/create-your-app.md)
+- [Make app environment](https://developers.make.com/custom-apps-documentation/create-your-first-app/apps-environment.md)
+- [Connections](https://developers.make.com/custom-apps-documentation/create-your-first-app/apps-environment/connection.md)
+- [Base](https://developers.make.com/custom-apps-documentation/create-your-first-app/apps-environment/base.md)
+- [Modules](https://developers.make.com/custom-apps-documentation/create-your-first-app/apps-environment/module.md)
+- [Test your app](https://developers.make.com/custom-apps-documentation/create-your-first-app/test-your-app.md)
+- [App logo](https://developers.make.com/custom-apps-documentation/create-your-first-app/app-logo.md)
+- [App visibility](https://developers.make.com/custom-apps-documentation/create-your-first-app/app-visibility.md)
+- [Error handling](https://developers.make.com/custom-apps-documentation/create-your-first-app/error-handling.md)
+- [Overview](https://developers.make.com/custom-apps-documentation/debug-your-app/overview.md): Learn how to use the Make DevTool to debug your app.
+- [Make DevTool](https://developers.make.com/custom-apps-documentation/debug-your-app/make-devtool.md)
+- [Live Stream](https://developers.make.com/custom-apps-documentation/debug-your-app/make-devtool/live-stream.md)
+- [Scenario Debugger](https://developers.make.com/custom-apps-documentation/debug-your-app/make-devtool/scenario-debugger.md)
+- [Tools](https://developers.make.com/custom-apps-documentation/debug-your-app/make-devtool/tools.md)
+- [Pagination in list/search modules](https://developers.make.com/custom-apps-documentation/debug-your-app/debugging-of-pagination-in-list-search-modules.md): Debug pagination issues in list and search modules by creating test records and results
+- [Remote Procedure Calls](https://developers.make.com/custom-apps-documentation/debug-your-app/debugging-rpc.md): Use the Make web interface to debug Remote Procedure Calls (RPCs)
+- [Custom IML functions](https://developers.make.com/custom-apps-documentation/debug-your-app/debugging-of-custom-iml-functions.md): Debug custom IML functions with a variety of tools
+- [Overview](https://developers.make.com/custom-apps-documentation/app-review/overview.md)
+- [Prerequisites](https://developers.make.com/custom-apps-documentation/app-review/prerequisites.md)
+- [Request app review](https://developers.make.com/custom-apps-documentation/app-review/request-app-review.md)
+- [Review status](https://developers.make.com/custom-apps-documentation/app-review/review-status.md)
+- [Approved app](https://developers.make.com/custom-apps-documentation/app-review/approved-app.md)
+- [Overview](https://developers.make.com/custom-apps-documentation/best-practices/overview.md)
+- [Naming conventions](https://developers.make.com/custom-apps-documentation/best-practices/naming-conventions.md)
+- [Apps](https://developers.make.com/custom-apps-documentation/best-practices/naming-conventions/apps.md)
+- [Modules](https://developers.make.com/custom-apps-documentation/best-practices/naming-conventions/modules.md)
+- [Modules names](https://developers.make.com/custom-apps-documentation/best-practices/naming-conventions/modules/modules-names.md)
+- [Module labels](https://developers.make.com/custom-apps-documentation/best-practices/naming-conventions/modules/module-labels.md)
+- [Module descriptions](https://developers.make.com/custom-apps-documentation/best-practices/naming-conventions/modules/module-descriptions.md)
+- [Input parameters](https://developers.make.com/custom-apps-documentation/best-practices/naming-conventions/input-parameters.md)
+- [Parameter labels](https://developers.make.com/custom-apps-documentation/best-practices/naming-conventions/input-parameters/parameter-labels.md)
+- [Parameter hints](https://developers.make.com/custom-apps-documentation/best-practices/naming-conventions/input-parameters/parameter-hints.md)
+- [Output labels](https://developers.make.com/custom-apps-documentation/best-practices/naming-conventions/output-labels.md)
+- [Groups](https://developers.make.com/custom-apps-documentation/best-practices/naming-conventions/groups.md)
+- [Input parameters](https://developers.make.com/custom-apps-documentation/best-practices/input-parameters.md)
+- [Mappable parameters](https://developers.make.com/custom-apps-documentation/best-practices/input-parameters/mappable-parameters.md): A mappable parameter is a variable or setting that you can change or link (map) to another value.
+- [Static parameters](https://developers.make.com/custom-apps-documentation/best-practices/input-parameters/static-parameters.md): A static parameter is a value or setting that is fixed, predefined, or constant.
+- [Processing of input parameters](https://developers.make.com/custom-apps-documentation/best-practices/input-parameters/processing-of-input-parameters.md)
+- [Output parameters](https://developers.make.com/custom-apps-documentation/best-practices/output-parameters.md)
+- [Interface](https://developers.make.com/custom-apps-documentation/best-practices/output-parameters/interface.md)
+- [Processing of output parameters](https://developers.make.com/custom-apps-documentation/best-practices/output-parameters/processing-of-output-parameters.md)
+- [Base](https://developers.make.com/custom-apps-documentation/best-practices/base.md)
+- [Base URL](https://developers.make.com/custom-apps-documentation/best-practices/base/base-url.md)
+- [Authorization and sanitization](https://developers.make.com/custom-apps-documentation/best-practices/base/authorization-and-sanitization.md)
+- [Error handling](https://developers.make.com/custom-apps-documentation/best-practices/base/error-handling.md)
+- [Connections](https://developers.make.com/custom-apps-documentation/best-practices/connections.md)
+- [Connection metadata](https://developers.make.com/custom-apps-documentation/best-practices/connections/connection-metadata.md)
+- [Editable connection](https://developers.make.com/custom-apps-documentation/best-practices/connections/editable-connection.md)
+- [Connection types](https://developers.make.com/custom-apps-documentation/best-practices/connections/connection-types.md)
+- [Additional OAuth scopes](https://developers.make.com/custom-apps-documentation/best-practices/connections/additional-oauth-scopes.md)
+- [Polling triggers](https://developers.make.com/custom-apps-documentation/best-practices/trigger-modules.md)
+- [Instant triggers (scheduled)](https://developers.make.com/custom-apps-documentation/best-practices/instant-triggers-scheduled.md)
+- [Modules](https://developers.make.com/custom-apps-documentation/best-practices/modules.md)
+- [Module types](https://developers.make.com/custom-apps-documentation/best-practices/modules/module-types.md)
+- [Batch actions](https://developers.make.com/custom-apps-documentation/best-practices/modules/batch-actions.md)
+- [Bulk actions](https://developers.make.com/custom-apps-documentation/best-practices/modules/bulk-actions.md)
+- [Search modules](https://developers.make.com/custom-apps-documentation/best-practices/modules/search-modules.md)
+- [Remote Procedure Calls](https://developers.make.com/custom-apps-documentation/best-practices/remote-procedure-calls.md)
+- [Update your app](https://developers.make.com/custom-apps-documentation/app-maintenance/updating-your-app.md)
+- [Private/Public apps](https://developers.make.com/custom-apps-documentation/app-maintenance/updating-your-app/private-public-apps.md)
+- [Approved apps](https://developers.make.com/custom-apps-documentation/app-maintenance/updating-your-app/approved-apps.md)
+- [Track code changes](https://developers.make.com/custom-apps-documentation/app-maintenance/updating-your-app/approved-apps/tracking-code-changes.md)
+- [Approval of changes](https://developers.make.com/custom-apps-documentation/app-maintenance/updating-your-app/approved-apps/approval-of-changes-in-approved-app.md): All changes to approved apps require Make approval. Changes will not be available in the public version of the app prior to our approval.
+- [Manage breaking changes](https://developers.make.com/custom-apps-documentation/app-maintenance/updating-your-app/approved-apps/managing-breaking-changes.md): When you make changes in an app, make sure your changes will not break existing scenarios.
+- [Terms of approved app maintenance](https://developers.make.com/custom-apps-documentation/app-maintenance/terms-of-approved-app-maintenance.md)
+- [Base](https://developers.make.com/custom-apps-documentation/app-components/base.md)
+- [Base URL](https://developers.make.com/custom-apps-documentation/app-components/base/base-url.md)
+- [Authorization](https://developers.make.com/custom-apps-documentation/app-components/base/authorization.md)
+- [Error handling](https://developers.make.com/custom-apps-documentation/app-components/base/error-handling.md): Handling errors returned from HTTP API endpoints
+- [Sanitization](https://developers.make.com/custom-apps-documentation/app-components/base/sanitization.md)
+- [Advanced inheritance](https://developers.make.com/custom-apps-documentation/app-components/base/advanced-inheritance.md)
+- [Connections](https://developers.make.com/custom-apps-documentation/app-components/connections.md)
+- [Basic connection](https://developers.make.com/custom-apps-documentation/app-components/connections/basic-connection.md): Connection is a link between Make and a third-party service or app.
+- [JWT](https://developers.make.com/custom-apps-documentation/app-components/connections/jwt.md)
+- [OAuth 1.0](https://developers.make.com/custom-apps-documentation/app-components/connections/oauth1.md): Connection is a link between Make and a third-party service or app. The OAuth 1.0 connection handles the token exchange automatically.
+- [OAuth 2.0](https://developers.make.com/custom-apps-documentation/app-components/connections/oauth2.md): Connection is a link between Make and a third-party service or app. The OAuth 2.0 connection handles the token exchange automatically.
+- [Webhooks](https://developers.make.com/custom-apps-documentation/app-components/webhooks.md): Webhooks are used with instant triggers that execute the flow immediately after the remote server sends data.
+- [Shared](https://developers.make.com/custom-apps-documentation/app-components/webhooks/shared.md): Shared webhooks are not very common. They are used when the external service requires you to register a single URL for all events, for all users.
+- [Dedicated](https://developers.make.com/custom-apps-documentation/app-components/webhooks/dedicated.md): Unlike a shared webhook, dedicated webhooks are directly linked to the user account. Only notifications for the specific user are received.
+- [Attached](https://developers.make.com/custom-apps-documentation/app-components/webhooks/dedicated/attached.md)
+- [Not attached](https://developers.make.com/custom-apps-documentation/app-components/webhooks/dedicated/not-attached.md)
+- [Modules](https://developers.make.com/custom-apps-documentation/app-components/modules.md)
+- [Action](https://developers.make.com/custom-apps-documentation/app-components/modules/action.md): The action module is a module that makes a request (or several) and returns a result. It does not have a state or any internal complex logic.
+- [Module actions](https://developers.make.com/custom-apps-documentation/app-components/modules/action/types.md): You can define a module's actions to take advantage of features.
+- [Components](https://developers.make.com/custom-apps-documentation/app-components/modules/action/components.md)
+- [Search](https://developers.make.com/custom-apps-documentation/app-components/modules/search.md): The search module makes a request (or several) and returns multiple results. It doesn’t have state nor any internal complex logic.
+- [Trigger (polling)](https://developers.make.com/custom-apps-documentation/app-components/modules/trigger.md): The trigger module is a special module that saves the information about the last item processed and continues the execution from that item.
+- [Instant trigger (webhook)](https://developers.make.com/custom-apps-documentation/app-components/modules/instant-trigger.md): The instant trigger is executed immediately when the data arrives to Make.
+- [Universal](https://developers.make.com/custom-apps-documentation/app-components/modules/universal-module.md)
+- [REST](https://developers.make.com/custom-apps-documentation/app-components/modules/universal-module/rest.md)
+- [GraphQL](https://developers.make.com/custom-apps-documentation/app-components/modules/universal-module/graphql.md)
+- [Responder](https://developers.make.com/custom-apps-documentation/app-components/modules/responder.md): The responder module is used to send a response to the sender of a webhook.
+- [Remote Procedure Calls](https://developers.make.com/custom-apps-documentation/app-components/rpcs.md): Remote Procedure Calls (RPCs) are API requests made from the module to improve usability when mapping certain values to modules.
+- [Dynamic fields RPC](https://developers.make.com/custom-apps-documentation/app-components/rpcs/dynamic-fields-rpc.md)
+- [Dynamic options RPC](https://developers.make.com/custom-apps-documentation/app-components/rpcs/dynamic-options-rpc.md)
+- [Dynamic sample RPC](https://developers.make.com/custom-apps-documentation/app-components/rpcs/dynamic-sample-rpc.md)
+- [Custom IML functions](https://developers.make.com/custom-apps-documentation/app-components/iml-functions.md): IML functions is a powerful feature that allows you to write your own JavaScript functions and execute them inside IML expressions to process data.
+- [Dynamic mappable parameters](https://developers.make.com/custom-apps-documentation/app-components/iml-functions/dynamic-mappable-parameters.md)
+- [Handling of PUT requests in action modules](https://developers.make.com/custom-apps-documentation/app-components/iml-functions/handling-of-full-update-approach-in-update-modules.md): Full update approach
+- [Removal of empty collections and nulls](https://developers.make.com/custom-apps-documentation/app-components/iml-functions/removal-of-empty-collections-and-nulls.md)
+- [Groups](https://developers.make.com/custom-apps-documentation/app-components/groups.md): Use groups to divide app modules into logical blocks and to change the order of modules in the GUI.
+- [Communication](https://developers.make.com/custom-apps-documentation/component-blocks/api.md): Communication specifies requests and responses.
+- [Requests](https://developers.make.com/custom-apps-documentation/component-blocks/api/making-requests.md)
+- [Multiple Requests](https://developers.make.com/custom-apps-documentation/component-blocks/api/multiple-requests.md)
+- [Handling responses](https://developers.make.com/custom-apps-documentation/component-blocks/api/handling-responses.md): By default, a module outputs the response it receives from the remote server.
+- [Type](https://developers.make.com/custom-apps-documentation/component-blocks/api/handling-responses/type.md)
+- [Valid](https://developers.make.com/custom-apps-documentation/component-blocks/api/handling-responses/valid.md): HTTP response validation
+- [Error](https://developers.make.com/custom-apps-documentation/component-blocks/api/handling-responses/error.md)
+- [Limit](https://developers.make.com/custom-apps-documentation/component-blocks/api/handling-responses/limit.md)
+- [Iterate](https://developers.make.com/custom-apps-documentation/component-blocks/api/handling-responses/iterate.md)
+- [Temp](https://developers.make.com/custom-apps-documentation/component-blocks/api/handling-responses/temp.md)
+- [Output](https://developers.make.com/custom-apps-documentation/component-blocks/api/handling-responses/output.md)
+- [Pagination](https://developers.make.com/custom-apps-documentation/component-blocks/api/pagination.md)
+- [IML variables](https://developers.make.com/custom-apps-documentation/component-blocks/api/iml-variables.md): IML variables are variables that you can use in IML expressions.
+- [Request-less communication](https://developers.make.com/custom-apps-documentation/component-blocks/api/request-less-communication.md): Use when you need to output static content
+- [Multipart/form-data](https://developers.make.com/custom-apps-documentation/component-blocks/api/multipart-form-data.md): A form-data type that works with body payload or file upload
+- [Buffer](https://developers.make.com/custom-apps-documentation/component-blocks/api/buffer.md): Used to store file content as a natural binary value, without any extra conversions
+- [Processing of JSON strings inside a JSON object](https://developers.make.com/custom-apps-documentation/component-blocks/api/processing-of-json-strings-inside-a-json-object.md)
+- [Static parameters](https://developers.make.com/custom-apps-documentation/component-blocks/parameters.md)
+- [Mappable parameters](https://developers.make.com/custom-apps-documentation/component-blocks/mappable-parameters.md)
+- [Interface](https://developers.make.com/custom-apps-documentation/component-blocks/interface.md): Describes the structure of output bundles and specifies parameters for the next modules
+- [Epoch](https://developers.make.com/custom-apps-documentation/component-blocks/epoch.md): The epoch panel is a popup window offered to the user when selecting from when to start when configuring a polling trigger.
+- [Samples](https://developers.make.com/custom-apps-documentation/component-blocks/samples.md): Sample is an object representing one output bundle.
+- [Scope](https://developers.make.com/custom-apps-documentation/component-blocks/scope.md): Use Scope to define required scopes when using OAuth.
+- [Scope List](https://developers.make.com/custom-apps-documentation/component-blocks/scopes.md): Scope lists contain all scopes described in a human-readable format.
+- [Data types](https://developers.make.com/custom-apps-documentation/block-elements/types.md): Make data types are derived from normal JSON data types, with some limitations and additions.
+- [Parameters](https://developers.make.com/custom-apps-documentation/block-elements/parameters.md)
+- [Array](https://developers.make.com/custom-apps-documentation/block-elements/parameters/array.md): An array of items of the same type
+- [Boolean](https://developers.make.com/custom-apps-documentation/block-elements/parameters/boolean.md): A true or false value
+- [Buffer](https://developers.make.com/custom-apps-documentation/block-elements/parameters/buffer.md): A binary buffer (file data)
+- [Cert](https://developers.make.com/custom-apps-documentation/block-elements/parameters/cert.md): A certificate in PEM format
+- [Collection](https://developers.make.com/custom-apps-documentation/block-elements/parameters/collection.md): An object with key: value pairs
+- [Color](https://developers.make.com/custom-apps-documentation/block-elements/parameters/color.md): Hexadecimal color input
+- [Date](https://developers.make.com/custom-apps-documentation/block-elements/parameters/date.md): Date or date with time (ISO 8601)
+- [Email](https://developers.make.com/custom-apps-documentation/block-elements/parameters/email.md): Allows only a valid email address to be filled in
+- [Filename](https://developers.make.com/custom-apps-documentation/block-elements/parameters/filename.md): A file name with extension
+- [Folder, File](https://developers.make.com/custom-apps-documentation/block-elements/parameters/folder-file.md): A folder or file selection for use with RPCs
+- [Filter](https://developers.make.com/custom-apps-documentation/block-elements/parameters/filter.md): An advanced parameter used for filtering
+- [Hidden](https://developers.make.com/custom-apps-documentation/block-elements/parameters/hidden.md): A parameter of this type is hidden from the user. The value should always be of type text. If the default is not text then it will be converted to text.
+- [Integer, Uinteger](https://developers.make.com/custom-apps-documentation/block-elements/parameters/integer-uinteger.md): A whole number or positive whole number
+- [JSON](https://developers.make.com/custom-apps-documentation/block-elements/parameters/json.md): A valid JSON string
+- [Number](https://developers.make.com/custom-apps-documentation/block-elements/parameters/number.md): A number that can include a decimal or fractional parts
+- [Password](https://developers.make.com/custom-apps-documentation/block-elements/parameters/password.md): Marks passwords and secrets when creating a connection to avoid exposing them
+- [Path](https://developers.make.com/custom-apps-documentation/block-elements/parameters/path.md): A path to a file or a folder.
+- [Pkey](https://developers.make.com/custom-apps-documentation/block-elements/parameters/pkey.md): A private key in PEM format
+- [Port](https://developers.make.com/custom-apps-documentation/block-elements/parameters/port.md): A whole number with a value from 1 to 65535
+- [Select](https://developers.make.com/custom-apps-documentation/block-elements/parameters/select.md): A selection from predefined values
+- [Text](https://developers.make.com/custom-apps-documentation/block-elements/parameters/text.md): A plain text value
+- [Time](https://developers.make.com/custom-apps-documentation/block-elements/parameters/time.md): Time in hh:mm format
+- [Timestamp](https://developers.make.com/custom-apps-documentation/block-elements/parameters/timestamp.md): A timestamp in Unix epoch format (number of seconds since 01/01/1970 00:00:00 UTC)
+- [Timezone](https://developers.make.com/custom-apps-documentation/block-elements/parameters/timezone.md): A time zone name in IANA ID format (e.g. Europe/Prague)
+- [URL](https://developers.make.com/custom-apps-documentation/block-elements/parameters/url.md): A URL address
+- [UUID](https://developers.make.com/custom-apps-documentation/block-elements/parameters/uuid.md): UUID
+- [JavaScript in Make](https://developers.make.com/custom-apps-documentation/block-elements/iml.md)
+- [About Community Apps](https://developers.make.com/custom-apps-documentation/community-apps/about.md)
+- [Frequently asked questions](https://developers.make.com/custom-apps-documentation/community-apps/how-does-it-work.md): The answers below reflect Make’s thinking as of July 2023. Based on feedback from both partners and customers, as well as business results, we reserve the right to make changes to the program
+- [Terms and conditions](https://developers.make.com/custom-apps-documentation/community-apps/terms-and-conditions.md): Submission and listing of Community Apps Terms & Conditions
+- [Tips and tricks](https://developers.make.com/custom-apps-documentation/community-apps/tips-and-tricks.md): Helpful information regarding control of access to your community app
+- [Access control using basic connection](https://developers.make.com/custom-apps-documentation/community-apps/tips-and-tricks/control-of-access-in-apps-using-basic-connection.md)
+- [Processing of 'empty' Values](https://developers.make.com/custom-apps-documentation/other/processing-of-empty-values.md): How Make processes mapped values and how empty values are passed to a service.
+- [HTTPS self-signed or with custom CA](https://developers.make.com/custom-apps-documentation/other/https-custom-ca.md): Connect securely to HTTPS services using self-signed or custom CA certificates.
+- [Custom Apps Documentation](https://developers.make.com/custom-apps-documentation/other/other.md)
+
+## Make App Academy API
+
+- [Make App Academy API](https://developers.make.com/custom-apps-development-training/make-app-academy-api.md)
+- [Version 0 (no authorization)](https://developers.make.com/custom-apps-development-training/version-0-no-authorization.md)
+- [Version 1 (API key)](https://developers.make.com/custom-apps-development-training/version-1-api-key.md)
+- [Version 2 (OAuth2)](https://developers.make.com/custom-apps-development-training/version-2-oauth2.md)
+- [Version 3](https://developers.make.com/custom-apps-development-training/version-3.md)
+- [Getting started](https://developers.make.com/custom-apps-development-training/version-3/getting-started.md)
+- [API reference](https://developers.make.com/custom-apps-development-training/version-3/api-reference.md)
+
+## White Label
+
+- [Make White Label](https://developers.make.com/white-label-documentation/make-white-label.md): Explore how to navigate and administrate your White Label instance as an OEM customer.
+- [Release notes](https://developers.make.com/white-label-documentation/release-notes.md)
+- [Release 2026.04](https://developers.make.com/white-label-documentation/release-notes/release-2026.04.md)
+- [Release 2026.03](https://developers.make.com/white-label-documentation/release-notes/release-2026.03.md)
+- [Anthropic Claude model deprecations on June 15, 2026](https://developers.make.com/white-label-documentation/release-notes/anthropic-claude-model-deprecations-on-june-15-2026.md)
+- [Facebook Conversions API connection update by May 9, 2026](https://developers.make.com/white-label-documentation/release-notes/facebook-conversions-api-connection-update-by-may-9-2026.md)
+- [Release 2026.02](https://developers.make.com/white-label-documentation/release-notes/release-2026.02.md)
+- [Release 2026.01-Product improvements](https://developers.make.com/white-label-documentation/release-notes/release-2026.01-product-improvements.md)
+- [Release 2026.01](https://developers.make.com/white-label-documentation/release-notes/release-2026.01.md)
+- [Release 2025.09](https://developers.make.com/white-label-documentation/release-notes/release-2025.09.md)
+- [Release 2025.09-1](https://developers.make.com/white-label-documentation/release-notes/release-2025.09/release-2025.09-1.md)
+- [Release 2025.08](https://developers.make.com/white-label-documentation/release-notes/release-2025.08.md)
+- [Release 2025.08-1](https://developers.make.com/white-label-documentation/release-notes/release-2025.08/release-2025.08-1.md)
+- [Release 2025.07](https://developers.make.com/white-label-documentation/release-notes/release-2025.07.md)
+- [Release 2025.07-1](https://developers.make.com/white-label-documentation/release-notes/release-2025.07/release-2025.07-1.md)
+- [Release 2025.06](https://developers.make.com/white-label-documentation/release-notes/release-2025.06.md)
+- [Release 2025.06-1](https://developers.make.com/white-label-documentation/release-notes/release-2025.06/release-2025.06-1.md)
+- [Release 2025.05](https://developers.make.com/white-label-documentation/release-notes/release-2025.05.md)
+- [Release 2025.04](https://developers.make.com/white-label-documentation/release-notes/release-2025.04.md)
+- [Release 2025.03](https://developers.make.com/white-label-documentation/release-notes/release-2025.03.md)
+- [Release 2025.02](https://developers.make.com/white-label-documentation/release-notes/release-2025.02.md)
+- [Release 2025.01](https://developers.make.com/white-label-documentation/release-notes/release-2025.01.md)
+- [Release 2024.13](https://developers.make.com/white-label-documentation/release-notes/release-2024.13.md)
+- [Release 2024.12](https://developers.make.com/white-label-documentation/release-notes/release-2024.12.md)
+- [Release 2024.11](https://developers.make.com/white-label-documentation/release-notes/release-2024.11.md)
+- [Release 2024.10](https://developers.make.com/white-label-documentation/release-notes/release-2024.10.md)
+- [Release 2024.09](https://developers.make.com/white-label-documentation/release-notes/release-2024.09.md)
+- [Release 2024.08](https://developers.make.com/white-label-documentation/release-notes/release-2024.08.md)
+- [Release 2024.07](https://developers.make.com/white-label-documentation/release-notes/release-2024.07.md)
+- [Release 2024.06](https://developers.make.com/white-label-documentation/release-notes/release-2024.06.md)
+- [Release 2024.05](https://developers.make.com/white-label-documentation/release-notes/release-2024.05.md)
+- [Release 2024.04](https://developers.make.com/white-label-documentation/release-notes/release-2024.04.md)
+- [Release 2024.03](https://developers.make.com/white-label-documentation/release-notes/release-2024.03.md)
+- [Release 2024.02](https://developers.make.com/white-label-documentation/release-notes/release-2024.02.md)
+- [Release 2024.01](https://developers.make.com/white-label-documentation/release-notes/release-2024.01.md)
+- [Install and configure apps](https://developers.make.com/white-label-documentation/install-and-configure-apps.md)
+- [Native apps](https://developers.make.com/white-label-documentation/install-and-configure-apps/native-apps.md)
+- [App versions](https://developers.make.com/white-label-documentation/install-and-configure-apps/native-apps/app-versions.md)
+- [App tiers](https://developers.make.com/white-label-documentation/install-and-configure-apps/native-apps/app-tiers.md)
+- [Uninstall native apps](https://developers.make.com/white-label-documentation/install-and-configure-apps/native-apps/uninstall-native-apps.md)
+- [Custom apps](https://developers.make.com/white-label-documentation/install-and-configure-apps/custom-apps.md)
+- [Sharing with a link](https://developers.make.com/white-label-documentation/install-and-configure-apps/custom-apps/sharing-with-a-link.md)
+- [Compiling the app](https://developers.make.com/white-label-documentation/install-and-configure-apps/custom-apps/compiling-the-app.md)
+- [OAuth 2.0 setup](https://developers.make.com/white-label-documentation/install-and-configure-apps/oauth-2.0-setup.md)
+- [Configure access for end-users](https://developers.make.com/white-label-documentation/install-and-configure-apps/oauth-2.0-setup/configure-access-for-end-users.md)
+- [Alternate option: require user-provided credentials](https://developers.make.com/white-label-documentation/install-and-configure-apps/oauth-2.0-setup/alternate-option-require-user-provided-credentials.md)
+- [App timeout](https://developers.make.com/white-label-documentation/install-and-configure-apps/app-timeout.md)
+- [Native apps](https://developers.make.com/white-label-documentation/install-and-configure-apps/app-timeout/native-apps.md)
+- [Custom Apps](https://developers.make.com/white-label-documentation/install-and-configure-apps/app-timeout/custom-apps.md): For custom apps, you can add a timeout parameter in the app's configuration.
+- [Shared webhooks](https://developers.make.com/white-label-documentation/install-and-configure-apps/shared-webhooks.md)
+- [Preinstalled tools](https://developers.make.com/white-label-documentation/install-and-configure-apps/preinstalled-tools.md)
+- [Manage custom apps](https://developers.make.com/white-label-documentation/install-and-configure-apps/manage-custom-apps.md)
+- [Managing access to custom apps](https://developers.make.com/white-label-documentation/install-and-configure-apps/manage-custom-apps/managing-access-to-custom-apps.md)
+- [Custom app creation flow for administrators](https://developers.make.com/white-label-documentation/install-and-configure-apps/manage-custom-apps/custom-app-creation-flow-for-administrators.md)
+- [Versioning and maintenance](https://developers.make.com/white-label-documentation/install-and-configure-apps/manage-custom-apps/versioning-and-maintenance.md)
+- [Google](https://developers.make.com/white-label-documentation/install-and-configure-apps/google.md)
+- [Steps in Google Developer Console](https://developers.make.com/white-label-documentation/install-and-configure-apps/google/steps-in-google-developer-console.md)
+- [Steps in Make](https://developers.make.com/white-label-documentation/install-and-configure-apps/google/steps-in-make.md)
+- [Connection and scope reference](https://developers.make.com/white-label-documentation/install-and-configure-apps/google/connection-and-scope-reference.md)
+- [Microsoft](https://developers.make.com/white-label-documentation/install-and-configure-apps/microsoft.md)
+- [Steps in Azure portal](https://developers.make.com/white-label-documentation/install-and-configure-apps/microsoft/steps-in-azure-portal.md)
+- [Steps in Make](https://developers.make.com/white-label-documentation/install-and-configure-apps/microsoft/steps-in-make.md)
+- [Connections and permission reference](https://developers.make.com/white-label-documentation/install-and-configure-apps/microsoft/connections-and-permission-reference.md)
+- [Facebook and other Meta apps](https://developers.make.com/white-label-documentation/install-and-configure-apps/facebook-and-other-meta-apps.md)
+- [Steps on the Meta for Developers portal](https://developers.make.com/white-label-documentation/install-and-configure-apps/facebook-and-other-meta-apps/steps-on-the-meta-for-developers-portal.md)
+- [Steps in Make](https://developers.make.com/white-label-documentation/install-and-configure-apps/facebook-and-other-meta-apps/steps-in-make.md)
+- [Connection and scope reference](https://developers.make.com/white-label-documentation/install-and-configure-apps/facebook-and-other-meta-apps/connection-and-scope-reference.md)
+- [Discord](https://developers.make.com/white-label-documentation/install-and-configure-apps/discord.md)
+- [Steps in Discord](https://developers.make.com/white-label-documentation/install-and-configure-apps/discord/steps-in-discord.md)
+- [Steps in Make](https://developers.make.com/white-label-documentation/install-and-configure-apps/discord/steps-in-make.md)
+- [Asana OAuth credentials](https://developers.make.com/white-label-documentation/install-and-configure-apps/asana-oauth-credentials.md)
+- [Steps in Asana](https://developers.make.com/white-label-documentation/install-and-configure-apps/asana-oauth-credentials/steps-in-asana.md)
+- [Steps in Make](https://developers.make.com/white-label-documentation/install-and-configure-apps/asana-oauth-credentials/steps-in-make.md)
+- [ClickUp OAuth credentials](https://developers.make.com/white-label-documentation/install-and-configure-apps/clickup-oauth-credentials.md)
+- [Steps in ClickUp](https://developers.make.com/white-label-documentation/install-and-configure-apps/clickup-oauth-credentials/steps-in-clickup.md)
+- [Steps in Make](https://developers.make.com/white-label-documentation/install-and-configure-apps/clickup-oauth-credentials/steps-in-make.md)
+- [Configure the module Email > Send an Email to a Team Member](https://developers.make.com/white-label-documentation/install-and-configure-apps/configure-the-module-email-greater-than-send-an-email-to-a-team-member.md)
+- [Verification](https://developers.make.com/white-label-documentation/install-and-configure-apps/verification.md)
+- [Manage login](https://developers.make.com/white-label-documentation/manage-login.md)
+- [Configure Single Sign-on](https://developers.make.com/white-label-documentation/manage-login/configure-single-sign-on.md)
+- [Configure single sign-on using OAuth 2.0 or SAML 2.0](https://developers.make.com/white-label-documentation/manage-login/configure-single-sign-on/configure-single-sign-on-using-oauth-2.0-or-saml-2.0.md)
+- [Example: Setting up single sign-on with MS Azure Active DirectoryPage 1](https://developers.make.com/white-label-documentation/manage-login/configure-single-sign-on/example-setting-up-single-sign-on-with-ms-azure-active-directorypage-1.md)
+- [Logging in using SSO](https://developers.make.com/white-label-documentation/manage-login/configure-single-sign-on/logging-in-using-sso.md)
+- [Configure two-factor authentication](https://developers.make.com/white-label-documentation/manage-login/configure-two-factor-authentication.md)
+- [Instance level roles](https://developers.make.com/white-label-documentation/manage-login/instance-level-roles.md)
+- [Admin - system roles](https://developers.make.com/white-label-documentation/manage-login/instance-level-roles/admin-system-roles.md)
+- [Admin - developer roles](https://developers.make.com/white-label-documentation/manage-login/instance-level-roles/admin-developer-roles.md)
+- [Admin - support roles](https://developers.make.com/white-label-documentation/manage-login/instance-level-roles/admin-support-roles.md)
+- [Okta SAML](https://developers.make.com/white-label-documentation/manage-login/okta-saml.md)
+- [Configuration steps](https://developers.make.com/white-label-documentation/manage-login/okta-saml/configuration-steps.md)
+- [Steps on Okta](https://developers.make.com/white-label-documentation/manage-login/okta-saml/steps-on-okta.md)
+- [Steps on Make](https://developers.make.com/white-label-documentation/manage-login/okta-saml/steps-on-make.md)
+- [Service provider initiated SSO](https://developers.make.com/white-label-documentation/manage-login/okta-saml/service-provider-initiated-sso.md)
+- [Troubleshooting](https://developers.make.com/white-label-documentation/manage-login/okta-saml/troubleshooting.md)
+- [Audit activity](https://developers.make.com/white-label-documentation/audit-activity.md)
+- [Access recent executions](https://developers.make.com/white-label-documentation/audit-activity/access-recent-executions.md)
+- [Search scenario executions](https://developers.make.com/white-label-documentation/audit-activity/access-recent-executions/search-scenario-executions.md)
+- [Access scenario execution information](https://developers.make.com/white-label-documentation/audit-activity/access-recent-executions/access-scenario-execution-information.md)
+- [Access a scenario's execution log](https://developers.make.com/white-label-documentation/audit-activity/access-recent-executions/access-a-scenarios-execution-log.md)
+- [Unlock a scenario execution](https://developers.make.com/white-label-documentation/audit-activity/access-recent-executions/unlock-a-scenario-execution.md)
+- [View recently created scenarios](https://developers.make.com/white-label-documentation/audit-activity/view-recently-created-scenarios.md)
+- [Access scenario information](https://developers.make.com/white-label-documentation/audit-activity/view-recently-created-scenarios/access-scenario-information.md)
+- [Log out a user's current session](https://developers.make.com/white-label-documentation/audit-activity/log-out-a-users-current-session.md)
+- [Organization's operations, data transfer, and storage usage](https://developers.make.com/white-label-documentation/audit-activity/organizations-operations-data-transfer-and-storage-usage.md)
+- [Manage the end-user life cycle](https://developers.make.com/white-label-documentation/manage-the-end-user-life-cycle.md)
+- [Provision new users](https://developers.make.com/white-label-documentation/manage-the-end-user-life-cycle/provision-new-users.md)
+- [Create users and organizations](https://developers.make.com/white-label-documentation/manage-the-end-user-life-cycle/provision-new-users/create-users-and-organizations.md)
+- [Define the organization's license](https://developers.make.com/white-label-documentation/manage-the-end-user-life-cycle/provision-new-users/define-the-organizations-license.md)
+- [User roles and access management](https://developers.make.com/white-label-documentation/manage-the-end-user-life-cycle/provision-new-users/user-roles-and-access-management.md)
+- [Maintain end users](https://developers.make.com/white-label-documentation/manage-the-end-user-life-cycle/maintain-end-users.md)
+- [Change an organization's reset date and restart period](https://developers.make.com/white-label-documentation/manage-the-end-user-life-cycle/maintain-end-users/change-an-organizations-reset-date-and-restart-period.md)
+- [Change user email and password](https://developers.make.com/white-label-documentation/manage-the-end-user-life-cycle/maintain-end-users/change-user-email-and-password.md)
+- [Change user details](https://developers.make.com/white-label-documentation/manage-the-end-user-life-cycle/maintain-end-users/change-user-details.md)
+- [Manage apps and features options](https://developers.make.com/white-label-documentation/manage-the-end-user-life-cycle/maintain-end-users/manage-apps-and-features-options.md)
+- [Deprovisioning](https://developers.make.com/white-label-documentation/manage-the-end-user-life-cycle/deprovisioning.md)
+- [Manage organizations and teams](https://developers.make.com/white-label-documentation/manage-organizations-and-teams.md)
+- [Creating organizations](https://developers.make.com/white-label-documentation/manage-organizations-and-teams/creating-organizations.md)
+- [Create and add new users to organizations](https://developers.make.com/white-label-documentation/manage-organizations-and-teams/create-and-add-new-users-to-organizations.md)
+- [Organization roles](https://developers.make.com/white-label-documentation/manage-organizations-and-teams/organization-roles.md)
+- [Remove a user from an organization](https://developers.make.com/white-label-documentation/manage-organizations-and-teams/remove-a-user-from-an-organization.md)
+- [Transfer organization ownership](https://developers.make.com/white-label-documentation/manage-organizations-and-teams/transfer-organization-ownership.md)
+- [Delete an organization](https://developers.make.com/white-label-documentation/manage-organizations-and-teams/delete-an-organization.md)
+- [Manage instance-level user access roles](https://developers.make.com/white-label-documentation/manage-organizations-and-teams/manage-instance-level-user-access-roles.md)
+- [Assign user roles](https://developers.make.com/white-label-documentation/manage-organizations-and-teams/manage-instance-level-user-access-roles/assign-user-roles.md)
+- [Customize user roles](https://developers.make.com/white-label-documentation/manage-organizations-and-teams/manage-instance-level-user-access-roles/customize-user-roles.md)
+- [Add users to organizations via an email invitation](https://developers.make.com/white-label-documentation/manage-organizations-and-teams/add-users-to-organizations-via-an-email-invitation.md)
+- [Default organizations permissions](https://developers.make.com/white-label-documentation/manage-organizations-and-teams/default-organizations-permissions.md)
+- [Default team permissions](https://developers.make.com/white-label-documentation/manage-organizations-and-teams/default-team-permissions.md)
+- [Customize your instance](https://developers.make.com/white-label-documentation/customize-your-instance.md)
+- [General procedure for configuring system settings](https://developers.make.com/white-label-documentation/customize-your-instance/general-procedure-for-configuring-system-settings.md)
+- [Rebrand your instance](https://developers.make.com/white-label-documentation/customize-your-instance/rebrand-your-instance.md)
+- [Customize user access to features](https://developers.make.com/white-label-documentation/customize-your-instance/customize-user-access-to-features.md)
+- [Configure token access with 3rd parties](https://developers.make.com/white-label-documentation/customize-your-instance/configure-token-access-with-3rd-parties.md)
+- [Custom domains](https://developers.make.com/white-label-documentation/customize-your-instance/custom-domains.md)
+- [Requirements](https://developers.make.com/white-label-documentation/customize-your-instance/custom-domains/requirements.md)
+- [General process](https://developers.make.com/white-label-documentation/customize-your-instance/custom-domains/general-process.md)
+- [Base and primary domains](https://developers.make.com/white-label-documentation/customize-your-instance/custom-domains/base-and-primary-domains.md)
+- [Migration of SSO](https://developers.make.com/white-label-documentation/customize-your-instance/custom-domains/migration-of-sso.md)
+- [App OAuth redirect URIs](https://developers.make.com/white-label-documentation/customize-your-instance/custom-domains/app-oauth-redirect-uris.md)
+- [Custom code injection](https://developers.make.com/white-label-documentation/customize-your-instance/custom-domains/custom-code-injection.md)
+- [Dynamic CSPs](https://developers.make.com/white-label-documentation/customize-your-instance/custom-domains/custom-code-injection/dynamic-csps.md)
+- [Configure JWT authorization](https://developers.make.com/white-label-documentation/configure-jwt-authorization.md)
+- [Enable JWT authorization](https://developers.make.com/white-label-documentation/configure-jwt-authorization/enable-jwt-authorization.md)
+- [Mapping](https://developers.make.com/white-label-documentation/configure-jwt-authorization/enable-jwt-authorization/mapping.md)
+- [Set up Helm charts](https://developers.make.com/white-label-documentation/set-up-helm-charts.md)
+- [Admin API Reference](https://developers.make.com/white-label-documentation/admin-api-reference.md)
+- [Analytics](https://developers.make.com/white-label-documentation/admin-api-reference/analytics.md)
+- [Outbound Webhooks](https://developers.make.com/white-label-documentation/admin-api-reference/outbound-webhooks.md)
+- [Remote Procedures](https://developers.make.com/white-label-documentation/admin-api-reference/remote-procedures.md)
+
+## MCP Server&#x20;
+
+- [Make MCP Server](https://developers.make.com/mcp-server/make-mcp-server.md)
+- [Example - Setting first Make MCP Tool](https://developers.make.com/mcp-server/make-mcp-server/example-setting-first-make-mcp-tool.md)
+- [Connect using OAuth](https://developers.make.com/mcp-server/connect-using-oauth.md)
+- [Usage with Cursor](https://developers.make.com/mcp-server/connect-using-oauth/usage-with-cursor.md)
+- [Usage with Claude](https://developers.make.com/mcp-server/connect-using-oauth/usage-with-claude.md)
+- [Usage with Claude Code](https://developers.make.com/mcp-server/connect-using-oauth/usage-with-claude-code.md)
+- [Usage with ChatGPT](https://developers.make.com/mcp-server/connect-using-oauth/usage-with-chatgpt.md)
+- [Usage with Windsurf](https://developers.make.com/mcp-server/connect-using-oauth/usage-with-windsurf.md)
+- [Usage with Gemini CLI](https://developers.make.com/mcp-server/connect-using-oauth/usage-with-gemini-cli.md)
+- [Usage with Kiro](https://developers.make.com/mcp-server/connect-using-oauth/usage-with-kiro.md)
+- [Usage with Warp](https://developers.make.com/mcp-server/connect-using-oauth/usage-with-warp.md)
+- [Usage with Mistral AI](https://developers.make.com/mcp-server/connect-using-oauth/usage-with-mistral-ai.md)
+- [Connect using MCP token](https://developers.make.com/mcp-server/connect-using-mcp-token.md)
+- [Scenarios as tools access control](https://developers.make.com/mcp-server/connect-using-mcp-token/scenarios-as-tools-access-control.md)
+- [Usage with Cursor](https://developers.make.com/mcp-server/connect-using-mcp-token/usage-with-cursor.md)
+- [Usage with Claude Desktop](https://developers.make.com/mcp-server/connect-using-mcp-token/usage-with-claude-desktop.md)
+- [Usage with ChatGPT](https://developers.make.com/mcp-server/connect-using-mcp-token/usage-with-chatgpt.md)
+- [Usage with OpenAI](https://developers.make.com/mcp-server/connect-using-mcp-token/usage-with-openai.md)
+- [Usage with OpenAI API](https://developers.make.com/mcp-server/connect-using-mcp-token/usage-with-openai-api.md)
+- [Usage with Vapi](https://developers.make.com/mcp-server/connect-using-mcp-token/usage-with-vapi.md)
+- [Make Cloud MCP Server](https://developers.make.com/mcp-server/make-cloud-mcp-server.md)
+- [Make Local MCP Server (legacy)](https://developers.make.com/mcp-server/make-local-mcp-server-legacy.md)
+- [Usage with Claude Desktop](https://developers.make.com/mcp-server/make-local-mcp-server-legacy/usage-with-claude-desktop.md)
+- [Usage with Cursor](https://developers.make.com/mcp-server/make-local-mcp-server-legacy/usage-with-cursor.md)
+
+## Make CLI
+
+- [Make CLI](https://developers.make.com/make-cli/make-cli.md): Use the Make CLI to manage Make resources from your terminal.
+- [Install the Make CLI](https://developers.make.com/make-cli/make-cli/install-the-make-cli.md)
+- [Authenticate the Make CLI](https://developers.make.com/make-cli/make-cli/authenticate-the-make-cli.md)
+- [Make CLI reference](https://developers.make.com/make-cli/make-cli/make-cli-reference.md)
+- [Scenarios](https://developers.make.com/make-cli/make-cli/make-cli-reference/scenarios.md)
+- [Credentials](https://developers.make.com/make-cli/make-cli/make-cli-reference/credentials.md)
+- [Data stores](https://developers.make.com/make-cli/make-cli/make-cli-reference/data-stores.md)
+- [Account management](https://developers.make.com/make-cli/make-cli/make-cli-reference/account-management.md)
+- [Custom app development](https://developers.make.com/make-cli/make-cli/make-cli-reference/custom-app-development.md)
+
+
+---
+
+# Agent Instructions
+This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
+
+## Querying This Documentation
+If you need additional information, you can query the documentation dynamically by asking a question.
+Perform an HTTP GET request on a page URL with the `ask` query parameter:
+```
+GET https://developers.make.com/make-developer-hub.md?ask=<question>
+```
+The question should be specific, self-contained, and written in natural language.
+The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
+Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.

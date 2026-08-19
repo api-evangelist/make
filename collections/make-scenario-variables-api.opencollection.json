@@ -1,0 +1,106 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Make AI Agents Scenario Variables API",
+    "version": "2.0.0"
+  },
+  "request": {
+    "auth": {
+      "type": "apikey",
+      "key": "Authorization",
+      "value": "{{Authorization}}",
+      "placement": "header"
+    }
+  },
+  "items": [
+    {
+      "info": {
+        "name": "Scenario Variables",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "List buildtime variables",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://us1.make.com/api/v2/scenarios/:scenarioId/build-variables",
+            "params": [
+              {
+                "name": "scenarioId",
+                "value": "",
+                "type": "path"
+              }
+            ]
+          },
+          "docs": "List buildtime variables"
+        },
+        {
+          "info": {
+            "name": "Add buildtime variables",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://us1.make.com/api/v2/scenarios/:scenarioId/build-variables",
+            "params": [
+              {
+                "name": "scenarioId",
+                "value": "",
+                "type": "path"
+              }
+            ],
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "Add buildtime variables"
+        },
+        {
+          "info": {
+            "name": "Update buildtime variables",
+            "type": "http"
+          },
+          "http": {
+            "method": "PUT",
+            "url": "https://us1.make.com/api/v2/scenarios/:scenarioId/build-variables",
+            "params": [
+              {
+                "name": "scenarioId",
+                "value": "",
+                "type": "path"
+              }
+            ],
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "Update buildtime variables"
+        },
+        {
+          "info": {
+            "name": "Delete a buildtime variable",
+            "type": "http"
+          },
+          "http": {
+            "method": "DELETE",
+            "url": "https://us1.make.com/api/v2/scenarios/:scenarioId/build-variables",
+            "params": [
+              {
+                "name": "scenarioId",
+                "value": "",
+                "type": "path"
+              }
+            ]
+          },
+          "docs": "Delete a buildtime variable"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}
