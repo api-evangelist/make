@@ -64,6 +64,11 @@ apis:
   tags:
   - Custom Apps
   - Extensions
+  - Integration
+  - SDK
+  tags_raw:
+  - Custom Apps
+  - Extensions
   - Integrations
   - SDK
   properties:
@@ -77,6 +82,11 @@ apis:
     server running via Streamable HTTP and Server-Sent Events.
   humanURL: https://developers.make.com/mcp-server
   tags:
+  - Agents
+  - Artificial Intelligence
+  - Automation
+  - MCP
+  tags_raw:
   - Agents
   - AI
   - Automation
