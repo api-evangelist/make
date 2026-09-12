@@ -162,6 +162,8 @@ apis:
   - type: OpenAPI
     url: openapi/make-scenarios-api-openapi.yml
 common:
+  - type: Website
+    url: https://www.make.com/
   - type: AgenticAccess
     url: agentic-access/make-agentic-access.yml
   - type: DomainSecurity
