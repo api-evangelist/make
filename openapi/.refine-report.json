@@ -1,10 +1,7 @@
 {
   "provider": "make",
   "sources": [
-    "make-ai-agents-api-openapi.yml",
-    "make-scenario-execution-api-openapi.yml",
-    "make-scenario-variables-api-openapi.yml",
-    "make-scenarios-api-openapi.yml"
+    "_original/make-openapi.yml"
   ],
   "outputs": [
     "make-ai-agents-api-openapi.yml",
@@ -15,6 +12,15 @@
   "archived": [],
   "errors": [],
   "warnings": [],
-  "notes": [],
-  "skipped": []
+  "notes": [
+    "sourced from openapi/_original/ (1 archived document(s)); previously refined output at the top level was skipped rather than re-split",
+    "make-openapi.yml: upgraded openapi 3.1.0 -> OpenAPI 3.2.0",
+    "apis.yml register: already-registered"
+  ],
+  "skipped": [
+    "make-ai-agents-api-openapi.yml: previously refined output, superseded by openapi/_original/",
+    "make-scenario-execution-api-openapi.yml: previously refined output, superseded by openapi/_original/",
+    "make-scenario-variables-api-openapi.yml: previously refined output, superseded by openapi/_original/",
+    "make-scenarios-api-openapi.yml: previously refined output, superseded by openapi/_original/"
+  ]
 }
