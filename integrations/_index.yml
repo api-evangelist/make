@@ -27,3 +27,15 @@
   relationship: platform-app
   status: not-a-workflow
   arazzo: null
+- slug: make-greenhouse-own
+  label: Greenhouse (own)
+  partner: greenhouse
+  partner_name: Greenhouse (own)
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://integrations.greenhouse.com/partners/make
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null

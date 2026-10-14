@@ -1,6 +1,7 @@
 generated: '2026-10-14'
 method: searched
 checked:
+- greenhouse/integrations/greenhouse-integration-edges.yml
 - https://marketplace.atlassian.com/
 - https://marketplace.visualstudio.com/vscode
 marketplace_apps: []
@@ -39,6 +40,22 @@ edges:
   - Verified domain
   detected_by: sweep-devtools.py
   detected: '2026-10-14'
+- partner_name: Greenhouse (own)
+  partner: greenhouse
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://integrations.greenhouse.com/partners/make
+  mirror_of: greenhouse/integrations/greenhouse-integration-edges.yml
+  apps:
+  - Make
+  listing_count: 1
+  detected: '2026-10-14'
+  detected_by: mirror-platform-listings.py
 source:
 - https://marketplace.atlassian.com/
 - https://marketplace.visualstudio.com/vscode
