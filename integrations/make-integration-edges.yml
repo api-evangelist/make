@@ -5,6 +5,7 @@ checked:
 - https://marketplace.atlassian.com/
 - https://marketplace.visualstudio.com/vscode
 - https://registry.modelcontextprotocol.io/v0/servers
+- stripe/integrations/stripe-integration-edges.yml
 marketplace_apps: []
 edges:
 - partner_name: Atlassian Marketplace
@@ -90,6 +91,23 @@ edges:
   listing_count: 1
   detected: '2026-10-14'
   detected_by: mirror-platform-listings.py
+- partner_name: Stripe (own)
+  partner: stripe
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://marketplace.stripe.com/apps/make
+  mirror_of: stripe/integrations/stripe-integration-edges.yml
+  apps:
+  - Make
+  listing_count: 1
+  detected: '2026-10-15'
+  detected_by: mirror-platform-listings.py
+  category: productivity
 source:
 - https://marketplace.atlassian.com/
 - https://marketplace.visualstudio.com/vscode
