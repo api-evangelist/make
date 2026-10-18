@@ -5,7 +5,9 @@ checked:
 - https://marketplace.atlassian.com/
 - https://marketplace.visualstudio.com/vscode
 - https://registry.modelcontextprotocol.io/v0/servers
+- monday-com/integrations/monday-com-integration-edges.yml
 - stripe/integrations/stripe-integration-edges.yml
+- zoom/integrations/zoom-integration-edges.yml
 marketplace_apps: []
 edges:
 - partner_name: Atlassian Marketplace
@@ -108,6 +110,40 @@ edges:
   - remote-domain
   detected_by: sweep-agent-tools.py
   first_seen: '2026-10-14'
+- partner_name: Monday.com (own)
+  partner: monday-com
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://monday.com/marketplace/listing/10000733
+  mirror_of: monday-com/integrations/monday-com-integration-edges.yml
+  apps:
+  - make.com
+  listing_count: 1
+  detected: '2026-10-18'
+  detected_by: mirror-platform-listings.py
+  category: monday.com app
+- partner_name: Zoom (own)
+  partner: zoom
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://marketplace.zoom.us/apps/YpMakOrnQ4eAO1NaWTDfTQ
+  mirror_of: zoom/integrations/zoom-integration-edges.yml
+  apps:
+  - Make User
+  listing_count: 1
+  detected: '2026-10-18'
+  detected_by: mirror-platform-listings.py
+  category: Zoom app
 source:
 - https://marketplace.atlassian.com/
 - https://marketplace.visualstudio.com/vscode
