@@ -7,6 +7,7 @@ checked:
 - https://registry.modelcontextprotocol.io/v0/servers
 - monday-com/integrations/monday-com-integration-edges.yml
 - stripe/integrations/stripe-integration-edges.yml
+- zendesk/integrations/zendesk-integration-edges.yml
 - zoom/integrations/zoom-integration-edges.yml
 marketplace_apps: []
 edges:
@@ -44,39 +45,6 @@ edges:
   - Verified domain
   detected_by: sweep-devtools.py
   detected: '2026-10-14'
-- partner_name: Greenhouse (own)
-  partner: greenhouse
-  partner_match: mirror
-  mirror_match: domain
-  type: marketplace
-  relationship: platform-app
-  direction: third-party
-  channel: partner-built
-  marketplace: own
-  evidence: https://integrations.greenhouse.com/partners/make
-  mirror_of: greenhouse/integrations/greenhouse-integration-edges.yml
-  apps:
-  - Make
-  listing_count: 1
-  detected: '2026-10-14'
-  detected_by: mirror-platform-listings.py
-- partner_name: Stripe (own)
-  partner: stripe
-  partner_match: mirror
-  mirror_match: domain
-  type: marketplace
-  relationship: platform-app
-  direction: third-party
-  channel: partner-built
-  marketplace: own
-  evidence: https://marketplace.stripe.com/apps/make
-  mirror_of: stripe/integrations/stripe-integration-edges.yml
-  apps:
-  - Make
-  listing_count: 1
-  detected: '2026-10-15'
-  detected_by: mirror-platform-listings.py
-  category: productivity
 - partner_name: MCP Registry
   partner: mcp
   partner_match: register
@@ -92,7 +60,7 @@ edges:
     registered_name: com.make/mcp-server
     register_id: com.make/mcp-server
     detected_by: sweep-agent-tools.py
-    detected: '2026-10-15'
+    detected: '2026-10-19'
   mcp_registry:
     servers:
     - com.make/mcp-server
@@ -110,6 +78,22 @@ edges:
   - remote-domain
   detected_by: sweep-agent-tools.py
   first_seen: '2026-10-14'
+- partner_name: Greenhouse (own)
+  partner: greenhouse
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://integrations.greenhouse.com/partners/make
+  mirror_of: greenhouse/integrations/greenhouse-integration-edges.yml
+  apps:
+  - Make
+  listing_count: 1
+  detected: '2026-10-14'
+  detected_by: mirror-platform-listings.py
 - partner_name: Monday.com (own)
   partner: monday-com
   partner_match: mirror
@@ -127,6 +111,40 @@ edges:
   detected: '2026-10-18'
   detected_by: mirror-platform-listings.py
   category: monday.com app
+- partner_name: Stripe (own)
+  partner: stripe
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://marketplace.stripe.com/apps/make
+  mirror_of: stripe/integrations/stripe-integration-edges.yml
+  apps:
+  - Make
+  listing_count: 1
+  detected: '2026-10-15'
+  detected_by: mirror-platform-listings.py
+  category: productivity
+- partner_name: Zendesk (own)
+  partner: zendesk
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://www.zendesk.com/marketplace/apps/support/128684/make/
+  mirror_of: zendesk/integrations/zendesk-integration-edges.yml
+  apps:
+  - Make
+  listing_count: 1
+  detected: '2026-10-20'
+  detected_by: mirror-platform-listings.py
+  category: Workflows
 - partner_name: Zoom (own)
   partner: zoom
   partner_match: mirror

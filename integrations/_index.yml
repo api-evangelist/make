@@ -27,6 +27,25 @@
   relationship: platform-app
   status: not-a-workflow
   arazzo: null
+- slug: make-mcp-registry
+  label: MCP Registry
+  partner: mcp
+  partner_name: MCP Registry
+  type: register
+  channel: standard-directory
+  evidence: https://registry.modelcontextprotocol.io/v0/servers?search=com.make
+  source: edge
+  relationship: standard-participant
+  contract_reference:
+    register: registry.modelcontextprotocol.io
+    spec_file: null
+    role: mcp-server-listing
+    registered_name: com.make/mcp-server
+    register_id: com.make/mcp-server
+    detected_by: sweep-agent-tools.py
+    detected: '2026-10-19'
+  status: not-a-workflow
+  arazzo: null
 - slug: make-greenhouse-own
   label: Greenhouse (own)
   partner: greenhouse
@@ -35,6 +54,19 @@
   marketplace: own
   channel: partner-built
   evidence: https://integrations.greenhouse.com/partners/make
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: make-monday-com-own
+  label: Monday.com (own)
+  partner: monday-com
+  partner_name: Monday.com (own)
+  category: monday.com app
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://monday.com/marketplace/listing/10000733
   source: edge
   relationship: platform-app
   status: not-a-workflow
@@ -52,34 +84,15 @@
   relationship: platform-app
   status: not-a-workflow
   arazzo: null
-- slug: make-mcp-registry
-  label: MCP Registry
-  partner: mcp
-  partner_name: MCP Registry
-  type: register
-  channel: standard-directory
-  evidence: https://registry.modelcontextprotocol.io/v0/servers?search=com.make
-  source: edge
-  relationship: standard-participant
-  contract_reference:
-    register: registry.modelcontextprotocol.io
-    spec_file: null
-    role: mcp-server-listing
-    registered_name: com.make/mcp-server
-    register_id: com.make/mcp-server
-    detected_by: sweep-agent-tools.py
-    detected: '2026-10-15'
-  status: not-a-workflow
-  arazzo: null
-- slug: make-monday-com-own
-  label: Monday.com (own)
-  partner: monday-com
-  partner_name: Monday.com (own)
-  category: monday.com app
+- slug: make-zendesk-own
+  label: Zendesk (own)
+  partner: zendesk
+  partner_name: Zendesk (own)
+  category: Workflows
   type: marketplace
   marketplace: own
   channel: partner-built
-  evidence: https://monday.com/marketplace/listing/10000733
+  evidence: https://www.zendesk.com/marketplace/apps/support/128684/make/
   source: edge
   relationship: platform-app
   status: not-a-workflow
