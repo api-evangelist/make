@@ -1,5 +1,9 @@
-generated: '2026-10-14'
+generated: '2026-10-20'
 method: searched
+source:
+- https://marketplace.atlassian.com/
+- https://marketplace.visualstudio.com/vscode
+- https://composio.dev/toolkits/make
 checked:
 - greenhouse/integrations/greenhouse-integration-edges.yml
 - https://marketplace.atlassian.com/
@@ -9,7 +13,71 @@ checked:
 - stripe/integrations/stripe-integration-edges.yml
 - zendesk/integrations/zendesk-integration-edges.yml
 - zoom/integrations/zoom-integration-edges.yml
-marketplace_apps: []
+- https://composio.dev/toolkits/make
+- https://monid.ai/tools/make
+- https://n8n.io/integrations/make/
+- https://zapier.com/apps/make/integrations
+summary: null
+marketplace_apps:
+- marketplace: composio
+  channel: agent-gateway
+  app: make
+  url: https://composio.dev/toolkits/make
+  identity: action-prefix
+  actions:
+  - key: MAKE_ACTIVATE_SCENARIO
+  - key: MAKE_CREATE_HOOK
+  - key: MAKE_CREATE_ORGANIZATIONS
+  - key: MAKE_CREATE_SCENARIO
+  - key: MAKE_CREATE_USERS_PASSWORD_RESET_DEMAND
+  - key: MAKE_DEACTIVATE_SCENARIO
+  - key: MAKE_DELETE_SCENARIO
+  - key: MAKE_GET_CASHIER_PRICES
+  - key: MAKE_GET_CASHIER_PRODUCTS
+  - key: MAKE_GET_CONNECTION
+  - key: MAKE_GET_CURRENT_AUTHORIZATION
+  - key: MAKE_GET_ENUMS_APPS_REVIEW_STATUSES
+  - key: MAKE_GET_ENUMS_IMT_REGIONS
+  - key: MAKE_GET_ENUMS_IMT_ZONES
+  - key: MAKE_GET_ENUMS_LLM_MODELS
+  - key: MAKE_GET_ENUMS_MODULE_TYPES
+  - key: MAKE_GET_ENUMS_ORGANIZATION_FEATURES
+  - key: MAKE_GET_ENUMS_USER_API_TOKEN_SCOPES
+  - key: MAKE_GET_ENUMS_USER_EMAIL_NOTIFICATIONS
+  - key: MAKE_GET_ENUMS_USER_FEATURES
+  - key: MAKE_GET_ENUMS_VARIABLE_TYPES
+  - key: MAKE_GET_HOOK
+  - key: MAKE_GET_HOOK_INCOMING_ACTIVITY
+  - key: MAKE_GET_HOOK_LOG
+  - key: MAKE_GET_OPERATIONS
+  - key: MAKE_GET_ORGANIZATION
+  - key: MAKE_GET_PUBLIC_TEMPLATE_BLUEPRINT
+  - key: MAKE_GET_SCENARIO
+  - key: MAKE_GET_SCENARIO_BLUEPRINT
+  - key: MAKE_GET_SCENARIO_EXECUTION
+  - key: MAKE_GET_SCENARIO_INTERFACE
+  - key: MAKE_GET_SCENARIO_LOGS
+  - key: MAKE_GET_SCENARIO_TRIGGERS
+  - key: MAKE_GET_TEAM
+  - key: MAKE_GET_USERS_ME
+  - key: MAKE_LIST_CONNECTIONS
+  - key: MAKE_LIST_ENUMS_COUNTRIES
+  - key: MAKE_LIST_ENUMS_LANGUAGES
+  - key: MAKE_LIST_ENUMS_LLM_BUILTIN_TIERS
+  - key: MAKE_LIST_ENUMS_LOCALES
+  - key: MAKE_LIST_ENUMS_TIMEZONES
+  - key: MAKE_LIST_HOOK_LOGS
+  - key: MAKE_LIST_INCOMPLETE_EXECUTIONS
+  - key: MAKE_LIST_ORGANIZATIONS
+  - key: MAKE_LIST_PUBLIC_TEMPLATES
+  - key: MAKE_LIST_SCENARIOS
+  - key: MAKE_LIST_TEAMS
+  - key: MAKE_PING_API
+  - key: MAKE_RUN_SCENARIO
+  - key: MAKE_SET_SDK_CONNECTION_API
+  - key: MAKE_UPDATE_SCENARIO
+  - key: MAKE_UPDATE_SCENARIO_INTERFACE
+  - key: MAKE_VERIFY_CONNECTION
 edges:
 - partner_name: Atlassian Marketplace
   partner: atlassian
@@ -162,6 +230,4 @@ edges:
   detected: '2026-10-18'
   detected_by: mirror-platform-listings.py
   category: Zoom app
-source:
-- https://marketplace.atlassian.com/
-- https://marketplace.visualstudio.com/vscode
+templates: []
