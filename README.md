@@ -1,4 +1,4 @@
-# Make (make)
+# Make
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,132 +66,138 @@
 
 Make (formerly Integromat) is a visual scenario-based automation builder with advanced data transformation and routing logic.
 
-**APIs.json:** [https://raw.githubusercontent.com/api-evangelist/make/refs/heads/main/apis.yml](https://raw.githubusercontent.com/api-evangelist/make/refs/heads/main/apis.yml)
+**Areas:** Automation · Integration · iPaaS · No-Code · Scenarios · Workflows · Workflow Automation
 
-## Scope
+## Make on APIs.io
 
-- **Type:** Index
-- **Position:** Consumer
-- **Access:** 3rd-Party
+Everything profiled for Make is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/make/](https://apis.io/providers/make/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+### APIs (8)
 
-- Automation
-- Integration
-- iPaaS
-- No-Code
-- Scenarios
-- Workflows
+- [Make API](https://apis.io/apis/make/make-api/) — The Make REST API allows using HTTP requests to access Make data and control the Make platform without opening its graphical interface. It provides…
+- [Make Custom Apps](https://apis.io/apis/make/custom-apps/) — The Make Custom Apps platform enables developers to create their own applications for the Make automation platform using the Apps Editor or the VS Code…
+- [Make MCP Server](https://apis.io/apis/make/mcp-server/) — The Make MCP Server allows AI systems such as large language models to run scenarios and manage the contents of a Make account using the Model Context…
+- [Make White Label](https://apis.io/apis/make/white-label/) — Make White Label provides OEM customers with the ability to manage and administrate their own white-labeled instance of Make, including rebranding…
+- [Make AI Agents API](https://apis.io/apis/make/make-ai-agents-api/) — The AI Agents API from Make — 1 operation(s) for ai agents.
+- [Make Scenario Execution API](https://apis.io/apis/make/make-scenario-execution-api/) — The Scenario Execution API from Make — 5 operation(s) for scenario execution.
+- [Make Scenario Variables API](https://apis.io/apis/make/make-scenario-variables-api/) — The Scenario Variables API from Make — 1 operation(s) for scenario variables.
+- [Make Scenarios API](https://apis.io/apis/make/make-scenarios-api/) — The Scenarios API from Make — 6 operation(s) for scenarios.
 
-## Timestamps
+### Published properties
 
-- **Created:** 2026-03-03
-- **Modified:** 2026-05-04
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### MCP servers (1)
 
-### Make API
+Model Context Protocol servers that expose the API to agents.
 
-The Make REST API allows using HTTP requests to access Make data and control the Make platform without opening its graphical interface. It provides endpoints for managing scenarios, connections, organizations, teams, users, webhooks, data stores, data structures, custom functions, templates, AI agents, and more.
+- [make](https://apis.io/servers/make/make/)
 
-- **Human URL:** [https://developers.make.com/api-documentation](https://developers.make.com/api-documentation)
-- **Base URL:** `https://us1.make.com/api/v2`
+#### Agentic access (1)
 
-#### Tags
+Which operations an agent can call, which act, and which need a human in the loop.
 
-- Automation
-- REST API
-- Scenarios
-- Workflows
+- [Make Agentic Access](https://apis.io/agentic-access/make/make-agentic-access/)
 
-#### Properties
+#### Collections (5)
 
-- [Documentation](https://developers.make.com/api-documentation)
-- [Getting Started](https://developers.make.com/api-documentation/getting-started)
-- [API Reference](https://developers.make.com/api-documentation/api-reference)
-- [Postman Collection](collections/make.postman_collection.json) — [Postman Collection 2.1](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
-- [Open Collection](collections/make.opencollection.json) — [Open Collection 1.0](https://schema.opencollection.com/opencollection/v1.0.0.json)
+Postman and Open Collection request collections.
 
-### Make Custom Apps
+- [Make API](https://apis.io/collections/make/open-make/)
+- [Make AI Agents API](https://apis.io/collections/make/open-make-ai-agents-api/)
+- [Make AI Agents Scenario Execution API](https://apis.io/collections/make/open-make-scenario-execution-api/)
+- [Make AI Agents Scenario Variables API](https://apis.io/collections/make/open-make-scenario-variables-api/)
+- [Make AI Agents Scenarios API](https://apis.io/collections/make/open-make-scenarios-api/)
 
-The Make Custom Apps platform enables developers to create their own applications for the Make automation platform using the Apps Editor or the VS Code extension. It provides documentation for building modules, connections, webhooks, RPCs, and functions for custom integrations.
+#### Security (2)
 
-- **Human URL:** [https://developers.make.com/custom-apps-documentation](https://developers.make.com/custom-apps-documentation)
+Authentication, trust centre, and vulnerability disclosure.
 
-#### Tags
+- [Make Authentication](https://apis.io/security/make/make-authentication/)
+- [Make Domain Security](https://apis.io/security/make/make-domain-security/)
 
-- Custom Apps
-- Extensions
-- Integrations
-- SDK
+#### Plans and pricing (1)
 
-#### Properties
+Published plans, tiers and prices.
 
-- [Documentation](https://developers.make.com/custom-apps-documentation)
-- [Postman Collection](collections/make.postman_collection.json) — [Postman Collection 2.1](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
-- [Open Collection](collections/make.opencollection.json) — [Open Collection 1.0](https://schema.opencollection.com/opencollection/v1.0.0.json)
+- [Make Plans Pricing](https://apis.io/plans/make/make-plans-pricing/)
 
-### Make MCP Server
+#### Rate limits (1)
 
-The Make MCP Server allows AI systems such as large language models to run scenarios and manage the contents of a Make account using the Model Context Protocol (MCP) standard. It is available as a cloud-hosted server running via Streamable HTTP and Server-Sent Events.
+Published request limits.
 
-- **Human URL:** [https://developers.make.com/mcp-server](https://developers.make.com/mcp-server)
+- [Make Rate Limits](https://apis.io/rate-limits/make/make-rate-limits/)
 
-#### Tags
+#### FinOps (1)
 
-- Agents
-- AI
-- Automation
-- MCP
+What the API costs to run, by operation.
 
-#### Properties
+- [Make Finops](https://apis.io/finops/make/make-finops/)
 
-- [Documentation](https://developers.make.com/mcp-server)
-- [Postman Collection](collections/make.postman_collection.json) — [Postman Collection 2.1](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
-- [Open Collection](collections/make.opencollection.json) — [Open Collection 1.0](https://schema.opencollection.com/opencollection/v1.0.0.json)
+## Where to find this API
 
-### Make White Label
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
-Make White Label provides OEM customers with the ability to manage and administrate their own white-labeled instance of Make, including rebranding appearance, managing user access roles, creating organizations and teams, and configuring custom domains.
-
-- **Human URL:** [https://developers.make.com/white-label-documentation](https://developers.make.com/white-label-documentation)
-
-#### Tags
-
-- Enterprise
-- OEM
-- White Label
-
-#### Properties
-
-- [Documentation](https://developers.make.com/white-label-documentation)
-- [Postman Collection](collections/make.postman_collection.json) — [Postman Collection 2.1](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
-- [Open Collection](collections/make.opencollection.json) — [Open Collection 1.0](https://schema.opencollection.com/opencollection/v1.0.0.json)
-
-## Common Properties
-
-- [LinkedIn](https://www.linkedin.com/company/itsmakehq)
-- [Portal](https://developers.make.com/)
-- [Getting Started](https://developers.make.com/api-documentation/getting-started)
-- [Blog](https://www.make.com/en/blog)
-- [Login](https://www.make.com/en/login)
-- [Sign Up](https://www.make.com/en/register)
+- [Website](https://www.make.com/)
+- [Getting started](https://developers.make.com/api-documentation/getting-started)
 - [Pricing](https://www.make.com/en/pricing)
-- [Help Center](https://help.make.com/)
-- [Status Page](https://status.make.com/)
+- [Blog](https://www.make.com/en/blog)
 - [Security](https://www.make.com/en/security)
-- [Privacy Policy](https://www.make.com/en/privacy-notice)
-- [Terms of Service](https://www.make.com/en/terms-and-conditions)
-- [Community](https://community.make.com/)
-- [Academy](https://academy.make.com/)
-- [Git Hub Org](https://github.com/integromat)
-- [Type Script S D K](https://github.com/integromat/make-typescript-sdk)
-- [V S Code Extension](https://github.com/integromat/vscode-apps-sdk)
-- [G D P R](https://www.make.com/en/privacy-and-gdpr)
-- [Features](undefined)
-- [L L Ms Txt](https://developers.make.com/llms.txt)
+- [Terms of service](https://www.make.com/en/terms-and-conditions)
+- [Privacy policy](https://www.make.com/en/privacy-notice)
+- [Status](https://status.make.com/)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
-**Email:** kin@apievangelist.com
+**Kin Score 42.9** — developing · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 58.3 |
+| Contract quality | 48.7 |
+| Contract governance | 0.0 |
+| Operational transparency | 36.8 |
+| Developer ergonomics | 54.8 |
+| Access clarity | 46.1 |
+
+**Agent readiness 43.9** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | derived (partial credit) |
+| Reversibility Documented | — |
+| MCP Server | verified |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 19.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/make/](https://apis.io/providers/make/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Make: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/make/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
